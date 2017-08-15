@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.mapsynq.utilityclasses.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.mapsynq.testclass.TestMapsynq">
+        <methods>
+          <include name="clickDirectiontab"/>
+        </methods>
+      </class> <!-- com.mapsynq.testclass.TestMapsynq -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

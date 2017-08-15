@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.746 sec <<< FAILURE!
+clickDirectiontab(com.mapsynq.testclass.TestMapsynq)  Time elapsed: 0.925 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Clear Route> but was:<Clear Route1>
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+	at com.mapsynq.testclass.TestMapsynq.clickDirectiontab(TestMapsynq.java:88)
+

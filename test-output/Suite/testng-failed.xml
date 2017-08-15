@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testClass.testMapsynq">
+        <methods>
+          <include name="LaunchURL"/>
+          <include name="tollAwareRoot"/>
+          <include name="clickDirectiontab"/>
+          <include name="traficAwareRoot"/>
+          <include name="clearRoute"/>
+        </methods>
+      </class> <!-- testClass.testMapsynq -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

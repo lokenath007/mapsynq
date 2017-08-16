@@ -2,14 +2,12 @@ package com.mapsynq.testclass;
 
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
-
 import com.mapsynq.pageclasses.Direction;
 import com.mapsynq.pageclasses.Live;
 import com.mapsynq.utilityclasses.CheckDomProperties;
 
-import org.testng.Assert;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Dimension;
@@ -34,6 +32,12 @@ public class TestMapsynq
 	static String validsource="CHANGI AIRPORT";
 	static String validdestination="BOTANIC GARDENS";
 
+	
+	public static WebDriver getDriver()
+	{
+		// TODO Auto-generated method stub
+		return driver;
+	}
 	@Test(priority=0)
 	public void LaunchURL()
 	{
@@ -75,7 +79,7 @@ public class TestMapsynq
 		driver.manage().window().setSize(new Dimension(1920, 1080));
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		live = new Live(driver);
-		AssertJUnit.assertEquals(live.getPageTitle(), "mapSYNQ - Live Traffic Information Platform");
+		Assert.assertEquals(live.getPageTitle(), "mapSYNQ - Live Traffic Information Platform");
 
 	}
 
@@ -85,7 +89,7 @@ public class TestMapsynq
 		chckdomprop=new CheckDomProperties(driver);
 		live.clickDirectionLink();
 		
-		AssertJUnit.assertEquals(chckdomprop.checkInnerText(direction.getClearRouteElement()),"Clear Route1");
+		Assert.assertEquals(chckdomprop.checkInnerText(direction.getClearRouteElement()),"Clear Route");
 	}
 
 	@Test(priority=2)
@@ -104,7 +108,7 @@ public class TestMapsynq
 		direction.setSourceDestination(validsource, validdestination);
 		direction.clickDirectionButton();
 		
-		AssertJUnit.assertEquals(chckdomprop.checkInnerText(direction.getTraficRoute()), "Click here to see traffic aware route");
+		Assert.assertEquals(chckdomprop.checkInnerText(direction.getTraficRoute()), "Click here to see traffic aware route");
 
 	}
 
@@ -126,7 +130,7 @@ public class TestMapsynq
 		direction.clickTollAwareCheckbox();
 		direction.clickFatestCheckbox();
 		direction.clickDirectionButton();
-		AssertJUnit.assertEquals(chckdomprop.checkInnerText(direction.getFatestRoute()), "Click here to see fastest route");
+		Assert.assertEquals(chckdomprop.checkInnerText(direction.getFatestRoute()), "Click here to see fastest route");
 
 	}
 
@@ -137,16 +141,17 @@ public class TestMapsynq
 		direction.clickFatestCheckbox();
 		direction.clickShortestCheckbox();
 		direction.clickDirectionButton();
-		AssertJUnit.assertEquals(chckdomprop.checkInnerText(direction.getShortestRoute()), "Click here to see shortest route");
+		Assert.assertEquals(chckdomprop.checkInnerText(direction.getShortestRoute()), "Click here to see shortest route");
 
 
 	}
 
-	public static WebDriver getDriver()
+	@Test(priority=7)
+	public void closeBrowser()
 	{
-		// TODO Auto-generated method stub
-		return driver;
+		driver.quit();
 	}
+	
 
 
 }

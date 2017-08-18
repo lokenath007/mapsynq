@@ -22,6 +22,12 @@ public class CheckDomProperties
 	}
 	
 	
-	
+public String checkPlaceHolder(String element){
+		
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		String varinnertext =  js.executeScript("return "+element+".placeholder;").toString();
+		return varinnertext;
+		
+	}
 
 }

@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">10 methods,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mapsynq.testclass.TestMapsynq" hash-for-method="ClickLiveTab">ClickLiveTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mapsynq.testclass.TestMapsynq" hash-for-method="LaunchURL">LaunchURL</a> <!-- method navigator-link -->
@@ -131,6 +136,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mapsynq.testclass.TestMapsynq" hash-for-method="testBlankSourceDesinationTraficAwareRoute">testBlankSourceDesinationTraficAwareRoute</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mapsynq.testclass.TestMapsynq" hash-for-method="testClearRoute">testClearRoute</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -159,9 +169,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="ClickLiveTab">
+                  </a> <!-- ClickLiveTab -->
+                  <span class="method-name">ClickLiveTab</span>
+                  <em>
+(Click Live Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="LaunchURL">
                   </a> <!-- LaunchURL -->
                   <span class="method-name">LaunchURL</span>
+                  <em>
+(Open a browser with http://www.mapsynq.com/ url)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -169,6 +190,8 @@
                   <a name="TestFatestRoute">
                   </a> <!-- TestFatestRoute -->
                   <span class="method-name">TestFatestRoute</span>
+                  <em>
+(Uncheck Toll Aware and Checked Fatest,then Click Get Directions button with valid data in A and B fields under Directions Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -176,6 +199,8 @@
                   <a name="TestShortestRoute">
                   </a> <!-- TestShortestRoute -->
                   <span class="method-name">TestShortestRoute</span>
+                  <em>
+(Uncheck Fatest and Checked Shortest,then Click Get Directions button with valid data in A and B fields under Directions Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -183,6 +208,8 @@
                   <a name="TestTollAwareRoute">
                   </a> <!-- TestTollAwareRoute -->
                   <span class="method-name">TestTollAwareRoute</span>
+                  <em>
+(Uncheck Trafic Aware and Checked Toll Aware,then Click Get Directions button with valid data in A and B fields under Directions Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -190,6 +217,8 @@
                   <a name="clickDirectiontab">
                   </a> <!-- clickDirectiontab -->
                   <span class="method-name">clickDirectiontab</span>
+                  <em>
+(Click Directions Tab )                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -201,9 +230,20 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testBlankSourceDesinationTraficAwareRoute">
+                  </a> <!-- testBlankSourceDesinationTraficAwareRoute -->
+                  <span class="method-name">testBlankSourceDesinationTraficAwareRoute</span>
+                  <em>
+(Click Get Directions button with blank A and B fields under Directions Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testClearRoute">
                   </a> <!-- testClearRoute -->
                   <span class="method-name">testClearRoute</span>
+                  <em>
+(Click Clear Route link under Directions Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -211,6 +251,8 @@
                   <a name="testTraficAwareRoute">
                   </a> <!-- testTraficAwareRoute -->
                   <span class="method-name">testTraficAwareRoute</span>
+                  <em>
+(Click Get Directions button with valid data in A and B fields under Directions Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -270,44 +312,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LaunchURL')
 data.setCell(0, 2, 'com.mapsynq.testclass.TestMapsynq')
-data.setCell(0, 3, 7642);
+data.setCell(0, 3, 7214);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testTraficAwareRoute')
+data.setCell(1, 1, 'testBlankSourceDesinationTraficAwareRoute')
 data.setCell(1, 2, 'com.mapsynq.testclass.TestMapsynq')
-data.setCell(1, 3, 2202);
+data.setCell(1, 3, 5459);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TestTollAwareRoute')
+data.setCell(2, 1, 'testTraficAwareRoute')
 data.setCell(2, 2, 'com.mapsynq.testclass.TestMapsynq')
-data.setCell(2, 3, 1100);
+data.setCell(2, 3, 2176);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'TestFatestRoute')
 data.setCell(3, 2, 'com.mapsynq.testclass.TestMapsynq')
-data.setCell(3, 3, 884);
+data.setCell(3, 3, 968);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'TestShortestRoute')
 data.setCell(4, 2, 'com.mapsynq.testclass.TestMapsynq')
-data.setCell(4, 3, 798);
+data.setCell(4, 3, 757);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'clickDirectiontab')
+data.setCell(5, 1, 'TestTollAwareRoute')
 data.setCell(5, 2, 'com.mapsynq.testclass.TestMapsynq')
-data.setCell(5, 3, 530);
+data.setCell(5, 3, 749);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testClearRoute')
+data.setCell(6, 1, 'clickDirectiontab')
 data.setCell(6, 2, 'com.mapsynq.testclass.TestMapsynq')
-data.setCell(6, 3, 421);
+data.setCell(6, 3, 426);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'closeBrowser')
+data.setCell(7, 1, 'testClearRoute')
 data.setCell(7, 2, 'com.mapsynq.testclass.TestMapsynq')
-data.setCell(7, 3, 278);
+data.setCell(7, 3, 348);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ClickLiveTab')
+data.setCell(8, 2, 'com.mapsynq.testclass.TestMapsynq')
+data.setCell(8, 3, 330);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'closeBrowser')
+data.setCell(9, 2, 'com.mapsynq.testclass.TestMapsynq')
+data.setCell(9, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -340,31 +390,39 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickDirectiontab</span>
-                <span class="method-start">7644 ms</span>
+                <span class="method-start">7215 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testClearRoute</span>
-                <span class="method-start">8177 ms</span>
+                <span class="method-start">7642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBlankSourceDesinationTraficAwareRoute</span>
+                <span class="method-start">7990 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testTraficAwareRoute</span>
-                <span class="method-start">8599 ms</span>
+                <span class="method-start">13449 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestTollAwareRoute</span>
-                <span class="method-start">10802 ms</span>
+                <span class="method-start">15625 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestFatestRoute</span>
-                <span class="method-start">11903 ms</span>
+                <span class="method-start">16375 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestShortestRoute</span>
-                <span class="method-start">12787 ms</span>
+                <span class="method-start">17344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickLiveTab</span>
+                <span class="method-start">18101 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">13585 ms</span>
+                <span class="method-start">18432 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

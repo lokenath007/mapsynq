@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="13.84" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="18.41" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="xmlFileName" value="testng.xml"/>
@@ -62,12 +62,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="LaunchURL" classname="com.mapsynq.testclass.TestMapsynq" time="7.648"/>
-  <testcase name="clickDirectiontab" classname="com.mapsynq.testclass.TestMapsynq" time="0.519"/>
-  <testcase name="testClearRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.415"/>
-  <testcase name="testTraficAwareRoute" classname="com.mapsynq.testclass.TestMapsynq" time="2.208"/>
-  <testcase name="TestTollAwareRoute" classname="com.mapsynq.testclass.TestMapsynq" time="1.091"/>
-  <testcase name="TestFatestRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.884"/>
-  <testcase name="TestShortestRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.797"/>
-  <testcase name="closeBrowser" classname="com.mapsynq.testclass.TestMapsynq" time="0.278"/>
+  <testcase name="LaunchURL" classname="com.mapsynq.testclass.TestMapsynq" time="7.212"/>
+  <testcase name="clickDirectiontab" classname="com.mapsynq.testclass.TestMapsynq" time="0.411"/>
+  <testcase name="testClearRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.348"/>
+  <testcase name="testBlankSourceDesinationTraficAwareRoute" classname="com.mapsynq.testclass.TestMapsynq" time="5.459"/>
+  <testcase name="testTraficAwareRoute" classname="com.mapsynq.testclass.TestMapsynq" time="2.176"/>
+  <testcase name="TestTollAwareRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.75"/>
+  <testcase name="TestFatestRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.968"/>
+  <testcase name="TestShortestRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.756"/>
+  <testcase name="ClickLiveTab" classname="com.mapsynq.testclass.TestMapsynq" time="0.33"/>
+  <testcase name="closeBrowser" classname="com.mapsynq.testclass.TestMapsynq" time="0"/>
 </testsuite>

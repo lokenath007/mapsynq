@@ -1,41 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13874" started-at="2017-08-16T03:33:45Z" finished-at="2017-08-16T03:33:59Z">
+  <suite name="Suite" duration-ms="18444" started-at="2017-08-18T03:43:14Z" finished-at="2017-08-18T03:43:32Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13874" started-at="2017-08-16T03:33:45Z" finished-at="2017-08-16T03:33:59Z">
+    <test name="Test" duration-ms="18444" started-at="2017-08-18T03:43:14Z" finished-at="2017-08-18T03:43:32Z">
       <class name="com.mapsynq.testclass.TestMapsynq">
-        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@7a5d012c]" name="LaunchURL" duration-ms="7642" started-at="2017-08-16T09:03:45Z" finished-at="2017-08-16T09:03:52Z">
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="LaunchURL" duration-ms="7214" started-at="2017-08-18T09:13:14Z" description="Open a browser with http://www.mapsynq.com/ url" finished-at="2017-08-18T09:13:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchURL -->
-        <test-method status="PASS" signature="clickDirectiontab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@7a5d012c]" name="clickDirectiontab" duration-ms="530" started-at="2017-08-16T09:03:52Z" finished-at="2017-08-16T09:03:53Z">
+        <test-method status="PASS" signature="clickDirectiontab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="clickDirectiontab" duration-ms="426" started-at="2017-08-18T09:13:21Z" description="Click Directions Tab " finished-at="2017-08-18T09:13:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickDirectiontab -->
-        <test-method status="PASS" signature="testClearRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@7a5d012c]" name="testClearRoute" duration-ms="421" started-at="2017-08-16T09:03:53Z" finished-at="2017-08-16T09:03:53Z">
+        <test-method status="PASS" signature="testClearRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="testClearRoute" duration-ms="348" started-at="2017-08-18T09:13:21Z" description="Click Clear Route link under Directions Page" finished-at="2017-08-18T09:13:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClearRoute -->
-        <test-method status="PASS" signature="testTraficAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@7a5d012c]" name="testTraficAwareRoute" duration-ms="2202" started-at="2017-08-16T09:03:53Z" finished-at="2017-08-16T09:03:56Z">
+        <test-method status="PASS" signature="testBlankSourceDesinationTraficAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="testBlankSourceDesinationTraficAwareRoute" duration-ms="5459" started-at="2017-08-18T09:13:22Z" description="Click Get Directions button with blank A and B fields under Directions Page" finished-at="2017-08-18T09:13:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankSourceDesinationTraficAwareRoute -->
+        <test-method status="PASS" signature="testTraficAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="testTraficAwareRoute" duration-ms="2176" started-at="2017-08-18T09:13:27Z" description="Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-18T09:13:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTraficAwareRoute -->
-        <test-method status="PASS" signature="TestTollAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@7a5d012c]" name="TestTollAwareRoute" duration-ms="1100" started-at="2017-08-16T09:03:56Z" finished-at="2017-08-16T09:03:57Z">
+        <test-method status="PASS" signature="TestTollAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="TestTollAwareRoute" duration-ms="749" started-at="2017-08-18T09:13:29Z" description="Uncheck Trafic Aware and Checked Toll Aware,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-18T09:13:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTollAwareRoute -->
-        <test-method status="PASS" signature="TestFatestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@7a5d012c]" name="TestFatestRoute" duration-ms="884" started-at="2017-08-16T09:03:57Z" finished-at="2017-08-16T09:03:58Z">
+        <test-method status="PASS" signature="TestFatestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="TestFatestRoute" duration-ms="968" started-at="2017-08-18T09:13:30Z" description="Uncheck Toll Aware and Checked Fatest,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-18T09:13:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFatestRoute -->
-        <test-method status="PASS" signature="TestShortestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@7a5d012c]" name="TestShortestRoute" duration-ms="798" started-at="2017-08-16T09:03:58Z" finished-at="2017-08-16T09:03:58Z">
+        <test-method status="PASS" signature="TestShortestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="TestShortestRoute" duration-ms="757" started-at="2017-08-18T09:13:31Z" description="Uncheck Fatest and Checked Shortest,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-18T09:13:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestShortestRoute -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@7a5d012c]" name="closeBrowser" duration-ms="278" started-at="2017-08-16T09:03:58Z" finished-at="2017-08-16T09:03:59Z">
+        <test-method status="PASS" signature="ClickLiveTab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="ClickLiveTab" duration-ms="330" started-at="2017-08-18T09:13:32Z" description="Click Live Tab" finished-at="2017-08-18T09:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLiveTab -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="closeBrowser" duration-ms="0" started-at="2017-08-18T09:13:32Z" finished-at="2017-08-18T09:13:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

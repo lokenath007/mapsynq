@@ -3,13 +3,17 @@ package com.mapsynq.testclass;
 
 import org.testng.annotations.Test;
 import org.testng.Assert;
-import org.testng.AssertJUnit;
 import com.mapsynq.pageclasses.Direction;
 import com.mapsynq.pageclasses.Live;
+//import com.mapsynq.pageclasses.Live;
+import com.mapsynq.utilityclasses.AlertHandle;
 import com.mapsynq.utilityclasses.CheckDomProperties;
+import com.mapsynq.utilityclasses.GetJsonTestData;
 
+import java.io.FileNotFoundException;
 import java.util.concurrent.TimeUnit;
 
+import org.json.JSONException;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,7 +25,9 @@ public class TestMapsynq
 {
 	Direction direction;
 	CheckDomProperties chckdomprop;
+	GetJsonTestData getjsontestdata;
 	Live live ;
+	AlertHandle alrthandle;
 
 	private String URL=System.getProperty("url");
 	private String BROWSER=System.getProperty("browser");
@@ -29,16 +35,16 @@ public class TestMapsynq
 	static String CHROME_PATH="drivers/chrome/chromedriver";
 	static String FIREFOX_PATH="drivers/firefox/geckodriver";
 
-	static String validsource="CHANGI AIRPORT";
-	static String validdestination="BOTANIC GARDENS";
+	//static String validsource="CHANGI AIRPORT";
+	//static String validdestination="BOTANIC GARDENS";
 
-	
+
 	public static WebDriver getDriver()
 	{
 		// TODO Auto-generated method stub
 		return driver;
 	}
-	@Test(priority=0)
+	@Test(priority=0,description = "Open a browser with http://www.mapsynq.com/ url")
 	public void LaunchURL()
 	{
 		if(BROWSER.equalsIgnoreCase("Firefox"))
@@ -77,53 +83,67 @@ public class TestMapsynq
 
 		driver.get(URL);
 		driver.manage().window().setSize(new Dimension(1920, 1080));
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		live = new Live(driver);
 		Assert.assertEquals(live.getPageTitle(), "mapSYNQ - Live Traffic Information Platform");
 
 	}
 
-	@Test(priority=1)
+	@Test(priority=1,description = "Click Directions Tab ")
 	public void clickDirectiontab()
-	{	direction=new Direction(driver);
+	{	
+		direction=new Direction(driver);
 		chckdomprop=new CheckDomProperties(driver);
+		alrthandle=new AlertHandle(driver);
+		getjsontestdata=new GetJsonTestData(driver);
 		live.clickDirectionLink();
-		
 		Assert.assertEquals(chckdomprop.checkInnerText(direction.getClearRouteElement()),"Clear Route");
 	}
 
-	@Test(priority=2)
+	@Test(priority=2,description = "Click Clear Route link under Directions Page")
 	public void testClearRoute()
 
 	{
-		
 		direction.clickRouteClear();
 	}
 
-	@Test(priority=3)
-	public void testTraficAwareRoute() 
+
+	@Test(priority=3,description = "Click Get Directions button with blank A and B fields under Directions Page")
+	public void testBlankSourceDesinationTraficAwareRoute() throws FileNotFoundException, JSONException, InterruptedException
 
 	{
-		
-		direction.setSourceDestination(validsource, validdestination);
+		direction.clickRouteClear();
 		direction.clickDirectionButton();
-		
+		alrthandle.acceptAlert();
+
+	}
+
+	@Test(priority=4,description = "Click Get Directions button with valid data in A and B fields under Directions Page")
+	public void testTraficAwareRoute() throws FileNotFoundException, JSONException, InterruptedException 
+
+	{
+		direction.clickRouteClear();
+		//direction.setSource(getjsontestdata.getData("validsource"));
+		//direction.setDestination(getjsontestdata.getData("validdestination"));
+		direction.setSourceDestination(getjsontestdata.getData("validsource"), getjsontestdata.getData("validdestination"));
+		direction.clickDirectionButton();
+
 		Assert.assertEquals(chckdomprop.checkInnerText(direction.getTraficRoute()), "Click here to see traffic aware route");
 
 	}
 
-	@Test(priority=4)
+	@Test(priority=5,description = "Uncheck Trafic Aware and Checked Toll Aware,then Click Get Directions button with valid data in A and B fields under Directions Page")
 	public void TestTollAwareRoute() throws InterruptedException 
 
 	{
 		direction.clickTraficCheckbox();
 		direction.clickTollAwareCheckbox();
 		direction.clickDirectionButton();
-		AssertJUnit.assertEquals(chckdomprop.checkInnerText(direction.getTollAwareRoute()), "Click here to see toll aware route");
+		Assert.assertEquals(chckdomprop.checkInnerText(direction.getTollAwareRoute()), "Click here to see toll aware route");
 
 	}
 
-	@Test(priority=5)
+	@Test(priority=6,description = "Uncheck Toll Aware and Checked Fatest,then Click Get Directions button with valid data in A and B fields under Directions Page")
 	public void TestFatestRoute() 
 
 	{
@@ -134,7 +154,7 @@ public class TestMapsynq
 
 	}
 
-	@Test(priority=6)
+	@Test(priority=7,description = "Uncheck Fatest and Checked Shortest,then Click Get Directions button with valid data in A and B fields under Directions Page")
 	public void TestShortestRoute()  
 
 	{
@@ -146,12 +166,29 @@ public class TestMapsynq
 
 	}
 
-	@Test(priority=7)
+
+
+	
+
+	@Test(priority=8,description = "Click Live Tab")
+	public void ClickLiveTab()  
+
+	{
+		direction.clickLiveTab();
+		Assert.assertEquals(chckdomprop.checkPlaceHolder(live.getPlaceHolder()), "Search incident location");
+
+
+	}
+
+
+
+
+	@Test(priority=11)
 	public void closeBrowser()
 	{
-		driver.quit();
+		//driver.quit();
 	}
-	
+
 
 
 }

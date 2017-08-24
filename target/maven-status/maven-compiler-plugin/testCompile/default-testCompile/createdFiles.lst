@@ -1,6 +1,7 @@
 com/mapsynq/utilityclasses/CheckDomProperties.class
 com/mapsynq/pageclasses/Direction.class
 com/mapsynq/utilityclasses/CheckBrokenLink.class
+com/mapsynq/utilityclasses/CustomizeReport.class
 com/mapsynq/pageclasses/Live.class
 com/mapsynq/utilityclasses/AlertHandle.class
 com/mapsynq/testclass/TestMapsynq.class

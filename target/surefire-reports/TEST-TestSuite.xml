@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="18.41" tests="10" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="675.114" tests="32" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="xmlFileName" value="testng.xml"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.121-b13"/>
-    <property name="browser" value="Firefox"/>
+    <property name="browser" value="Chrome"/>
     <property name="user.country.format" value="IN"/>
     <property name="gopherProxySet" value="false"/>
     <property name="url" value="http://www.mapsynq.com/"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Durl=http://www.mapsynq.com/ -Dbrowser=Firefox -DxmlFileName=testng.xml"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Durl=http://www.mapsynq.com/ -Dbrowser=Chrome -DxmlFileName=testng.xml"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -62,14 +62,36 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="LaunchURL" classname="com.mapsynq.testclass.TestMapsynq" time="7.212"/>
-  <testcase name="clickDirectiontab" classname="com.mapsynq.testclass.TestMapsynq" time="0.411"/>
-  <testcase name="testClearRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.348"/>
-  <testcase name="testBlankSourceDesinationTraficAwareRoute" classname="com.mapsynq.testclass.TestMapsynq" time="5.459"/>
-  <testcase name="testTraficAwareRoute" classname="com.mapsynq.testclass.TestMapsynq" time="2.176"/>
-  <testcase name="TestTollAwareRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.75"/>
-  <testcase name="TestFatestRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.968"/>
-  <testcase name="TestShortestRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.756"/>
-  <testcase name="ClickLiveTab" classname="com.mapsynq.testclass.TestMapsynq" time="0.33"/>
-  <testcase name="closeBrowser" classname="com.mapsynq.testclass.TestMapsynq" time="0"/>
+  <testcase name="LaunchURL" classname="com.mapsynq.testclass.TestMapsynq" time="7.021"/>
+  <testcase name="clickDirectiontab" classname="com.mapsynq.testclass.TestMapsynq" time="0.344"/>
+  <testcase name="testClearRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.296"/>
+  <testcase name="testBlankSourceDesinationTraficAwareRoute" classname="com.mapsynq.testclass.TestMapsynq" time="5.725"/>
+  <testcase name="testTraficAwareRoute" classname="com.mapsynq.testclass.TestMapsynq" time="22.321"/>
+  <testcase name="TestTollAwareRoute" classname="com.mapsynq.testclass.TestMapsynq" time="3.635"/>
+  <testcase name="TestFatestRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.699"/>
+  <testcase name="TestShortestRoute" classname="com.mapsynq.testclass.TestMapsynq" time="0.201"/>
+  <testcase name="ClickLiveTab" classname="com.mapsynq.testclass.TestMapsynq" time="0.159"/>
+  <testcase name="CheckSingaporeLiveTrafficNews" classname="com.mapsynq.testclass.TestMapsynq" time="0.351"/>
+  <testcase name="ClickCameraTab" classname="com.mapsynq.testclass.TestMapsynq" time="0.211"/>
+  <testcase name="SingaporeLiveTrafficCameras" classname="com.mapsynq.testclass.TestMapsynq" time="0.176"/>
+  <testcase name="MalaysiaLiveTrafficCameras" classname="com.mapsynq.testclass.TestMapsynq" time="0.131"/>
+  <testcase name="SrilankaLiveTrafficCameras" classname="com.mapsynq.testclass.TestMapsynq" time="0.13"/>
+  <testcase name="TestCountTotalLink" classname="com.mapsynq.testclass.TestMapsynq" time="0.185"/>
+  <testcase name="TestCountInvalidLink" classname="com.mapsynq.testclass.TestMapsynq" time="18.381"/>
+  <testcase name="ClickTollsLink" classname="com.mapsynq.testclass.TestMapsynq" time="0.14"/>
+  <testcase name="CheckSingaporeTolls" classname="com.mapsynq.testclass.TestMapsynq" time="0.838"/>
+  <testcase name="CheckMalaysiaTolls" classname="com.mapsynq.testclass.TestMapsynq" time="0.647"/>
+  <testcase name="CheckThialndTolls" classname="com.mapsynq.testclass.TestMapsynq" time="1.141"/>
+  <testcase name="ClickFirstSignaporeTollLink" classname="com.mapsynq.testclass.TestMapsynq" time="0.934"/>
+  <testcase name="SwitchToPriceListDropdown" classname="com.mapsynq.testclass.TestMapsynq" time="100.17"/>
+  <testcase name="GetPriceAndRatesLargeVehicleWeekdays" classname="com.mapsynq.testclass.TestMapsynq" time="2.241"/>
+  <testcase name="GetPriceAndRatesCarSaturday" classname="com.mapsynq.testclass.TestMapsynq" time="100.154"/>
+  <testcase name="GetPriceAndRatesMotorCycleWeekdays" classname="com.mapsynq.testclass.TestMapsynq" time="1.945"/>
+  <testcase name="GetPriceAndRatesMotorCycleSaturday" classname="com.mapsynq.testclass.TestMapsynq" time="100.14"/>
+  <testcase name="GetPriceAndRatesCarWeekdays" classname="com.mapsynq.testclass.TestMapsynq" time="1.823"/>
+  <testcase name="GetPriceAndRatesLargeVehicleSaturday" classname="com.mapsynq.testclass.TestMapsynq" time="100.267"/>
+  <testcase name="GetPriceAndRatesHeavyVehicleWeekdays" classname="com.mapsynq.testclass.TestMapsynq" time="2.031"/>
+  <testcase name="GetPriceAndRatesHeavyVehicleSaturday" classname="com.mapsynq.testclass.TestMapsynq" time="100.201"/>
+  <testcase name="GetPriceAndRatesVeryHeavhVehicleWeekdays" classname="com.mapsynq.testclass.TestMapsynq" time="2.267"/>
+  <testcase name="GetPriceAndRatesVeryHeavhVehicleSaturday" classname="com.mapsynq.testclass.TestMapsynq" time="100.209"/>
 </testsuite>

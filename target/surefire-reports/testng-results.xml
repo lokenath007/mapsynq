@@ -1,52 +1,3514 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="10" passed="10">
+<testng-results skipped="0" failed="0" total="32" passed="32">
   <reporter-output>
+    <line>
+      <![CDATA[19:39
+Vehicle breakdown on PIE towards Tuas after Eng Neo Ave. Avoid lane 5.]]>
+    </line>
+    <line>
+      <![CDATA[19:39
+Obstacle on Jalan Buroh towards City after Penjuru Road. Avoid left lane.]]>
+    </line>
+    <line>
+      <![CDATA[19:30
+Road Closure on Loke Yew Street near Hill Street Loke Yew Street Junction.]]>
+    </line>
+    <line>
+      <![CDATA[19:30
+Road Closure on Armenian Street near Armenian Street Loke Yew Street Junction.]]>
+    </line>
+    <line>
+      <![CDATA[19:30
+Road Closure on Armenian Street near Armenian Street Fort Canning Link Junction.]]>
+    </line>
+    <line>
+      <![CDATA[Adam Road (Towards Changi)
+After Tuas West Road (Towards Tuas)
+After Tuas West Road (Towards Tuas)
+Alexandra Road (Towards MCE)
+Ang Mo Kio Ave 1 Flyover
+Ang Mo Kio Ave 5 Flyover (Towards City)
+Bedok North (Towards Jurong)
+Benjamin Sheares Bridge
+Braddell Flyover (Towards SLE)
+Bukit Merah Flyover
+Bukit Timah Expressway (Towards Changi)
+Central Boulevard Ramp onto MCE(AYE)
+Chantek Flyover (Towards PIE)
+Choa Chu Kang (Towards PIE)
+Dairy Farm Flyover (Towards PIE)
+Defu Flyover
+Entrance from Chin Swee Road (Towards SLE)
+Entrance from MCE (Towards Changi)
+Entrance from PIE (Towards Changi)
+Eunos Flyover (Towards Jurong)
+Exit 2A to Changi Coast Road (Towards City)
+Exit 6 to Bukit Timah Road
+Fort Road
+Jurong West ST81 (Towards Jurong)
+Kallang Bahru
+Kallang Way Flyover
+Keppel Viaduct
+Kim Keat (Towards Changi)
+KPE / Aljunied West Flyover
+KPE/PIE
+Laguna Flyover (Towards Changi)
+Lentor Flyover (Towards TPE)
+Lower Delta Road (Towards City)
+Marina Bay (Towards AYE)
+Marina Blvd Ramp onto MCE(KPE)
+Marine Parade Flyover (Towards City)
+MCE(AYE) Start of Expressway
+MCE(KPE) Before Exit 2 Central Blvd
+Moulmein Flyover (Towards AYE)
+Mount Pleasant (Towards Jurong)
+Near Dover ITE (Towards MCE)
+Near NUS (Towards Tuas)
+Pandan Gardens (Towards Tuas)
+Paya Lebar Flyover (Towards Jurong)
+Rivervale Drive (Towards SLE)
+Second Link at Tuas
+Seletar Flyover (Towards BKE)
+Sentosa Gateway (Towards Sentosa)
+Sentosa Gateway (Towards Telok Blangah)
+St George Road (Towards SLE)
+Tampines Flyover
+Tanjong Katong Flyover (Towards Changi)
+Tanjong Rhu (Towards MCE)
+Thomson Road
+Tuas Checkpoint
+Upper Changi Flyover (Towards PIE)
+Woodlands Causeway (Towards Johor)
+Woodlands Checkpoint (Towards BKE)
+Woodlands Flyover (Towards Checkpoint)
+Woodlands South Flyover (Towards Woodlands)
+Woodsville Flyover (Towards Changi)
+Yio Chu Kang Flyover]]>
+    </line>
+    <line>
+      <![CDATA[Bangunan DBKL
+Bulatan Dato
+Bulatan Kg Pandan
+Bulatan Segambut
+DBP
+Desa Petaling
+Esso
+exit Jalan Robson
+Hentian Putra
+HKL
+Istana Budaya
+Jalan Usahawan Junction
+Jejambat Jln
+Kedutaan Perancis
+Klinik Pergigian Bangsar
+Pasar Besar Gombak
+Pavilion
+Persiaran Titiwangsa
+Petronas TPM
+PJ Hilton
+Sheraton Imperial
+Taman Bukit Jalil
+Taman Duta
+Taman Midah
+uta Vista]]>
+    </line>
+    <line>
+      <![CDATA[Ayurveda Junction
+Bambalapitiya Junction
+Baseline Road
+Castle Hospital
+Jawatte Mosque
+Kaduwela Junction
+Kiribathgoda Junction
+Kollupitiya
+Kollupitiya Junction
+Pamankada Junction
+Papilyana Road
+Unity Plaza
+Wellawatta
+William Junction]]>
+    </line>
+    <line>
+      <![CDATA[507]]>
+    </line>
+    <line>
+      <![CDATA[405]]>
+    </line>
+    <line>
+      <![CDATA[Anson Road]]>
+    </line>
+    <line>
+      <![CDATA[AYE to City before Alexandra Road]]>
+    </line>
+    <line>
+      <![CDATA[Bayfront Avenue towards Marina Boulevard]]>
+    </line>
+    <line>
+      <![CDATA[Bayfront Avenue towards Raffles Avenue]]>
+    </line>
+    <line>
+      <![CDATA[Beach Road]]>
+    </line>
+    <line>
+      <![CDATA[Bencoolen Street]]>
+    </line>
+    <line>
+      <![CDATA[Bendemeer Road]]>
+    </line>
+    <line>
+      <![CDATA[Bt Timah Expressway (Sb betw Dairy Farm Rd & PIE)]]>
+    </line>
+    <line>
+      <![CDATA[Buyong Road]]>
+    </line>
+    <line>
+      <![CDATA[Cairnhill Road]]>
+    </line>
+    <line>
+      <![CDATA[Central Boulevard]]>
+    </line>
+    <line>
+      <![CDATA[Citybound AYE After Jurong Town Hall]]>
+    </line>
+    <line>
+      <![CDATA[Clemenceau Ave]]>
+    </line>
+    <line>
+      <![CDATA[Clementi Avenue 2 into AYE (City)]]>
+    </line>
+    <line>
+      <![CDATA[Clementi Avenue 6 into AYE (City)]]>
+    </line>
+    <line>
+      <![CDATA[CTE after Braddell Road]]>
+    </line>
+    <line>
+      <![CDATA[CTE before Braddell Road]]>
+    </line>
+    <line>
+      <![CDATA[CTE from Balestier Road]]>
+    </line>
+    <line>
+      <![CDATA[CTE from Serangoon Road]]>
+    </line>
+    <line>
+      <![CDATA[CTE Northbound after PIE]]>
+    </line>
+    <line>
+      <![CDATA[CTE Northbound before exit to PIE]]>
+    </line>
+    <line>
+      <![CDATA[CTE Slip Road to PIE (Changi) / Serangoon Road]]>
+    </line>
+    <line>
+      <![CDATA[Dunearn Road / Wayang Satu Flyover]]>
+    </line>
+    <line>
+      <![CDATA[Dunearn Road / Whitley Road]]>
+    </line>
+    <line>
+      <![CDATA[ECP Eastbound before exit to KPE]]>
+    </line>
+    <line>
+      <![CDATA[ECP to City]]>
+    </line>
+    <line>
+      <![CDATA[Eu Tong Sen Street]]>
+    </line>
+    <line>
+      <![CDATA[Eu Tong Seng Street at Central]]>
+    </line>
+    <line>
+      <![CDATA[Fort Canning Tunnel]]>
+    </line>
+    <line>
+      <![CDATA[Fullerton Road eastbound at Fullerton Hotel]]>
+    </line>
+    <line>
+      <![CDATA[Fullerton Road westbound at One Fullerton]]>
+    </line>
+    <line>
+      <![CDATA[Geylang Bahru]]>
+    </line>
+    <line>
+      <![CDATA[Geylang Road]]>
+    </line>
+    <line>
+      <![CDATA[Havelock Road/Clemenceau Ave]]>
+    </line>
+    <line>
+      <![CDATA[Havelock Road/CTE Exit]]>
+    </line>
+    <line>
+      <![CDATA[Kallang Bahru]]>
+    </line>
+    <line>
+      <![CDATA[Killiney Road]]>
+    </line>
+    <line>
+      <![CDATA[KPE Southbound exit to ECP (City)]]>
+    </line>
+    <line>
+      <![CDATA[Kramat Road]]>
+    </line>
+    <line>
+      <![CDATA[Lim Teck Kim Road]]>
+    </line>
+    <line>
+      <![CDATA[Marina Boulevard to MCE Eastbound]]>
+    </line>
+    <line>
+      <![CDATA[Maxwell Road]]>
+    </line>
+    <line>
+      <![CDATA[MCE Eastbound before exit to Central Boulevard]]>
+    </line>
+    <line>
+      <![CDATA[MCE Westbound before exit to Maxwell Road]]>
+    </line>
+    <line>
+      <![CDATA[MCE Westbound exit to Marina Coastal Drive]]>
+    </line>
+    <line>
+      <![CDATA[Merchant Road/Clemenceau Ave]]>
+    </line>
+    <line>
+      <![CDATA[Merchant Road/CTE Exit]]>
+    </line>
+    <line>
+      <![CDATA[New Bridge Road before Upper Circular Road]]>
+    </line>
+    <line>
+      <![CDATA[Nicoll Highway]]>
+    </line>
+    <line>
+      <![CDATA[North Bridge Road]]>
+    </line>
+    <line>
+      <![CDATA[Orchard Link]]>
+    </line>
+    <line>
+      <![CDATA[Orchard Road]]>
+    </line>
+    <line>
+      <![CDATA[Orchard Road after Handy Road]]>
+    </line>
+    <line>
+      <![CDATA[Orchard Road after YMCA]]>
+    </line>
+    <line>
+      <![CDATA[Orchard Turn]]>
+    </line>
+    <line>
+      <![CDATA[Oxley Road]]>
+    </line>
+    <line>
+      <![CDATA[PIE after Kallang Bahru on Woodsville Flyover]]>
+    </line>
+    <line>
+      <![CDATA[PIE into CTE]]>
+    </line>
+    <line>
+      <![CDATA[PIE slip road to Bendemeer Road]]>
+    </line>
+    <line>
+      <![CDATA[PIE to Changi / Whitley Road]]>
+    </line>
+    <line>
+      <![CDATA[PIE to Changi after Adam Road Exit]]>
+    </line>
+    <line>
+      <![CDATA[PIE to CTE Northbound before Braddell Road]]>
+    </line>
+    <line>
+      <![CDATA[PIE westbound before Eunos Link]]>
+    </line>
+    <line>
+      <![CDATA[Queen Street]]>
+    </line>
+    <line>
+      <![CDATA[Republic Boulevard]]>
+    </line>
+    <line>
+      <![CDATA[River Valley Road]]>
+    </line>
+    <line>
+      <![CDATA[Sheares Avenue towards Sheares Link]]>
+    </line>
+    <line>
+      <![CDATA[South Bridge Road before Upper Circular Road]]>
+    </line>
+    <line>
+      <![CDATA[Tanjong Pagar Road]]>
+    </line>
+    <line>
+      <![CDATA[Temasek Boulevard]]>
+    </line>
+    <line>
+      <![CDATA[Thomson Road after Toa Payoh Rise]]>
+    </line>
+    <line>
+      <![CDATA[Toa Payoh Lorong 6]]>
+    </line>
+    <line>
+      <![CDATA[Tuasbound AYE After North Buona Vista]]>
+    </line>
+    <line>
+      <![CDATA[Upper Boon Keng Road]]>
+    </line>
+    <line>
+      <![CDATA[Upper Bt Timah Rd Southbound after Hume Ave]]>
+    </line>
+    <line>
+      <![CDATA[Victoria Street]]>
+    </line>
+    <line>
+      <![CDATA[Woodsville Tunnel]]>
+    </line>
+    <line>
+      <![CDATA[Alam Impian]]>
+    </line>
+    <line>
+      <![CDATA[Awan Besar (East)]]>
+    </line>
+    <line>
+      <![CDATA[Awan Kecil (West)]]>
+    </line>
+    <line>
+      <![CDATA[Ayer Hitam]]>
+    </line>
+    <line>
+      <![CDATA[Ayer Panas]]>
+    </line>
+    <line>
+      <![CDATA[Bagan Ajam]]>
+    </line>
+    <line>
+      <![CDATA[Batu]]>
+    </line>
+    <line>
+      <![CDATA[Batu 11]]>
+    </line>
+    <line>
+      <![CDATA[Batu 9]]>
+    </line>
+    <line>
+      <![CDATA[Bentong]]>
+    </line>
+    <line>
+      <![CDATA[Bukit Jelutong]]>
+    </line>
+    <line>
+      <![CDATA[Bukit Kajang]]>
+    </line>
+    <line>
+      <![CDATA[Bukit Raja]]>
+    </line>
+    <line>
+      <![CDATA[Damansara A]]>
+    </line>
+    <line>
+      <![CDATA[Damansara B]]>
+    </line>
+    <line>
+      <![CDATA[East-West Link (E)]]>
+    </line>
+    <line>
+      <![CDATA[East-West Link (E)]]>
+    </line>
+    <line>
+      <![CDATA[Elmina]]>
+    </line>
+    <line>
+      <![CDATA[Gombak]]>
+    </line>
+    <line>
+      <![CDATA[Kampung Medan]]>
+    </line>
+    <line>
+      <![CDATA[Kapar]]>
+    </line>
+    <line>
+      <![CDATA[Kapar (E) to Bukit Raja]]>
+    </line>
+    <line>
+      <![CDATA[Kapar (E) to Port Klang]]>
+    </line>
+    <line>
+      <![CDATA[Kapar (W) to Bukit Raja]]>
+    </line>
+    <line>
+      <![CDATA[Kapar (W) to Port Klang]]>
+    </line>
+    <line>
+      <![CDATA[Kemuning]]>
+    </line>
+    <line>
+      <![CDATA[Keramat]]>
+    </line>
+    <line>
+      <![CDATA[Kerinchi Link]]>
+    </line>
+    <line>
+      <![CDATA[Kubang Semang]]>
+    </line>
+    <line>
+      <![CDATA[Lagong]]>
+    </line>
+    <line>
+      <![CDATA[Laluan Terus]]>
+    </line>
+    <line>
+      <![CDATA[Lema-Kedai]]>
+    </line>
+    <line>
+      <![CDATA[Lukut]]>
+    </line>
+    <line>
+      <![CDATA[Lunas]]>
+    </line>
+    <line>
+      <![CDATA[Mambau]]>
+    </line>
+    <line>
+      <![CDATA[Mines (S)]]>
+    </line>
+    <line>
+      <![CDATA[Mines (T)]]>
+    </line>
+    <line>
+      <![CDATA[Mont. Kiara]]>
+    </line>
+    <line>
+      <![CDATA[Pantai Dalam]]>
+    </line>
+    <line>
+      <![CDATA[Pantai Dalam (T)]]>
+    </line>
+    <line>
+      <![CDATA[Penang Bridge]]>
+    </line>
+    <line>
+      <![CDATA[Penchala]]>
+    </line>
+    <line>
+      <![CDATA[Perai]]>
+    </line>
+    <line>
+      <![CDATA[Perling]]>
+    </line>
+    <line>
+      <![CDATA[PETALING JAYA]]>
+    </line>
+    <line>
+      <![CDATA[Pjs 5]]>
+    </line>
+    <line>
+      <![CDATA[Puchong Barat]]>
+    </line>
+    <line>
+      <![CDATA[Puchong Selatan]]>
+    </line>
+    <line>
+      <![CDATA[Putrajaya]]>
+    </line>
+    <line>
+      <![CDATA[Salak Link]]>
+    </line>
+    <line>
+      <![CDATA[Salak Selatan]]>
+    </line>
+    <line>
+      <![CDATA[Saujana Putra]]>
+    </line>
+    <line>
+      <![CDATA[Sentul Pasar]]>
+    </line>
+    <line>
+      <![CDATA[Seri Muda]]>
+    </line>
+    <line>
+      <![CDATA[Sg. Nyior]]>
+    </line>
+    <line>
+      <![CDATA[SMART Tunnel]]>
+    </line>
+    <line>
+      <![CDATA[Sungai Balak]]>
+    </line>
+    <line>
+      <![CDATA[Sungai Long]]>
+    </line>
+    <line>
+      <![CDATA[Sungai Ramal (E)]]>
+    </line>
+    <line>
+      <![CDATA[Sungai Ramal (W)]]>
+    </line>
+    <line>
+      <![CDATA[Sunway]]>
+    </line>
+    <line>
+      <![CDATA[Toll Gelang Patah]]>
+    </line>
+    <line>
+      <![CDATA[Toll Kempas]]>
+    </line>
+    <line>
+      <![CDATA[ANUSON SATHAN 1/1 (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[ANUSON SATHAN 1/2 (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[ASOK 1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[ASOK 2 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[ASOK 3 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[ASOK 4 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[AT NARONG  TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[AT NARONG 1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[AT NARONG 1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[AT NARONG 2 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[BANG KHEN TOLL GATE (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[BANG KHRU TOLL GATE-OUTBOUND 2 (BANG PLI-SUKSAWAT EXPRESSWAY)]]>
+    </line>
+    <line>
+      <![CDATA[BANG NA TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[BANG PA-IN TOLL GATE-INBOUND]]>
+    </line>
+    <line>
+      <![CDATA[BANG PA-IN TOLL GATE-OUTBOUND]]>
+    </line>
+    <line>
+      <![CDATA[BANG PHUN TOLL GATE-INBOUND]]>
+    </line>
+    <line>
+      <![CDATA[BANG PHUN TOLL GATE-OUTBOUND]]>
+    </line>
+    <line>
+      <![CDATA[BANG SUE TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[BANGCHAK TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[CHAENG WATTHANA 1 TOLL GATE (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[CHAENG WATTHANA 2 TOLL GATE (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[CHAN TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[CHATUCHOT TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[CHIANG RAK TOLL GATE-INBOUND]]>
+    </line>
+    <line>
+      <![CDATA[CHIANG RAK TOLL GATE-OUTBOUND]]>
+    </line>
+    <line>
+      <![CDATA[DAO KHANONG TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[DIN DAENG 1 TOLL GATE (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[DIN DAENG 2 TOLL GATE (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[DIN DAENG TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[DIN DAENG TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[DIN DAENG TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[DON MUEANG 1 TOLL GATE (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[DON MUEANG 2 TOLL GATE (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[HUA LAMPHONG TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[KHLONG PRAPA 1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[KHLONG PRAPA 2 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[LAK SI TOLL GATE-INBOUND (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[LAT KRABANG TOLL GATE-INBOUND (MOTORWAY)]]>
+    </line>
+    <line>
+      <![CDATA[LAT KRABANG TOLL GATE-OUTBOUND (MOTORWAY)]]>
+    </line>
+    <line>
+      <![CDATA[LAT PHRAO TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[LAT PHRAO TOLL GATE-INBOUND (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[LAT PHRAO TOLL GATE-OUTBOUND (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[LIAB MAENAM TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[MUEANG THONG THANI TOLL GATE-INBOUND]]>
+    </line>
+    <line>
+      <![CDATA[MUEANG THONG THANI TOLL GATE-OUTBOUND]]>
+    </line>
+    <line>
+      <![CDATA[NGAM WONGWAN 1 TOLL GATE-OUTBOUND]]>
+    </line>
+    <line>
+      <![CDATA[NGAM WONGWAN 2 TOLL GATE-INBOUND]]>
+    </line>
+    <line>
+      <![CDATA[PHAHON YOTHIN 1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[PHAHON YOTHIN 2 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[PHAN THONG TOLL GATE-INBOUND (MOTORWAY)]]>
+    </line>
+    <line>
+      <![CDATA[PHAN THONG TOLL GATE-OUTBOUND (MOTORWAY)]]>
+    </line>
+    <line>
+      <![CDATA[PHATTHANAKAN 1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[PHATTHANAKAN 2 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[PHETCHABURI TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[PHRA KHANONG TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[PRACHA UTHIT TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[PRACHACHUEN 1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[PRACHACHUEN 2 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[PRACHACHUEN TOLL GATE-INBOUND]]>
+    </line>
+    <line>
+      <![CDATA[PRACHACHUEN TOLL GATE-OUTBOUND]]>
+    </line>
+    <line>
+      <![CDATA[RAM INTHRA 1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RAM INTHRA TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 3 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 4-1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 4-2 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 9-1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 9-1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 9-1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 9-1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 9-1 TOLL GATE (CHALONG RAT)]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 9-1 TOLL GATE (CHALONG RAT)]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 9-1 TOLL GATE (CHALONG RAT)]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 9-1 TOLL GATE (CHALONG RAT)]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 9-2 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RAMA 9 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RAMKHAMHAENG TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[RATCHADAPHISEK 1 TOLL GATE (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[RATCHADAPHISEK 2 TOLL GATE (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[RATCHADAPHISEK TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SAPHAN SAWANG TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SATHON TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SATHU PRADIT 1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SATHU PRADIT 2 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SATHU PRADIT 3 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SINAKHARIN TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SISAMAN TOLL GATE-INBOUND]]>
+    </line>
+    <line>
+      <![CDATA[SISAMAN TOLL GATE-OUTBOUND]]>
+    </line>
+    <line>
+      <![CDATA[SUKHA PHIBAN 5-1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SUKHA PHIBAN 5-2 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SUKHUMVIT 62 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SUKHUMVIT TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SUKSAWAT TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SURAWONG TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[SUTTHISAN TOLL GATE (DON MUEANG TOLL WAY)]]>
+    </line>
+    <line>
+      <![CDATA[THA RUEA 1 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[THA RUEA 2 TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[THANYA BURI TOLL GATE-INBOUND (KANCHANA PHISEK)]]>
+    </line>
+    <line>
+      <![CDATA[THANYA BURI TOLL GATE-OUTBOUND (KANCHANA PHISEK)]]>
+    </line>
+    <line>
+      <![CDATA[THAP CHANG TOLL GATE-INBOUND (KANCHANA PHISEK)]]>
+    </line>
+    <line>
+      <![CDATA[THAP CHANG TOLL GATE-OUTBOUND (KANCHANA PHISEK)]]>
+    </line>
+    <line>
+      <![CDATA[THAP CHANG TOLL GATE-OUTBOUND (KANCHANA PHISEK)]]>
+    </line>
+    <line>
+      <![CDATA[TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[TOLL GATE (GO TO CHALONGRAT)]]>
+    </line>
+    <line>
+      <![CDATA[URUPHONG TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[YAN PHAHON YOTHIN TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[YOM MARAT TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[YOTHIN PHATTHANA TOLL GATE]]>
+    </line>
+    <line>
+      <![CDATA[Large Vehicle (Weekdays)]]>
+    </line>
+    <line>
+      <![CDATA[00:00 - 06:59]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[07:00 - 08:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[08:00 - 08:04]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[08:04 - 08:30]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[08:30 - 09:00]]>
+    </line>
+    <line>
+      <![CDATA[$2.50]]>
+    </line>
+    <line>
+      <![CDATA[09:00 - 09:25]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[09:25 - 09:30]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[09:30 - 09:55]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[09:55 - 10:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.50]]>
+    </line>
+    <line>
+      <![CDATA[10:00 - 12:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[12:00 - 12:04]]>
+    </line>
+    <line>
+      <![CDATA[$0.50]]>
+    </line>
+    <line>
+      <![CDATA[12:04 - 14:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[14:00 - 14:04]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[14:04 - 14:55]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[14:55 - 15:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[15:00 - 17:30]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[17:30 - 18:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[18:00 - 18:04]]>
+    </line>
+    <line>
+      <![CDATA[$2.30]]>
+    </line>
+    <line>
+      <![CDATA[18:04 - 18:25]]>
+    </line>
+    <line>
+      <![CDATA[$3.00]]>
+    </line>
+    <line>
+      <![CDATA[18:25 - 18:30]]>
+    </line>
+    <line>
+      <![CDATA[$2.50]]>
+    </line>
+    <line>
+      <![CDATA[18:30 - 18:55]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[18:55 - 19:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[19:00 - 19:55]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[19:55 - 20:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.50]]>
+    </line>
+    <line>
+      <![CDATA[20:00 - 22:30]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[22:30 - 23:59]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[Car (Saturday)]]>
+    </line>
+    <line>
+      <![CDATA[Motorcycle (Weekdays)]]>
+    </line>
+    <line>
+      <![CDATA[00:00 - 06:59]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[07:00 - 08:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[08:00 - 08:04]]>
+    </line>
+    <line>
+      <![CDATA[$0.50]]>
+    </line>
+    <line>
+      <![CDATA[08:04 - 08:30]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[08:30 - 09:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.25]]>
+    </line>
+    <line>
+      <![CDATA[09:00 - 09:25]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[09:25 - 09:30]]>
+    </line>
+    <line>
+      <![CDATA[$0.75]]>
+    </line>
+    <line>
+      <![CDATA[09:30 - 09:55]]>
+    </line>
+    <line>
+      <![CDATA[$0.50]]>
+    </line>
+    <line>
+      <![CDATA[09:55 - 10:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.25]]>
+    </line>
+    <line>
+      <![CDATA[10:00 - 12:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[12:00 - 12:04]]>
+    </line>
+    <line>
+      <![CDATA[$0.25]]>
+    </line>
+    <line>
+      <![CDATA[12:04 - 14:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.50]]>
+    </line>
+    <line>
+      <![CDATA[14:00 - 14:04]]>
+    </line>
+    <line>
+      <![CDATA[$0.75]]>
+    </line>
+    <line>
+      <![CDATA[14:04 - 14:55]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[14:55 - 15:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.75]]>
+    </line>
+    <line>
+      <![CDATA[15:00 - 17:30]]>
+    </line>
+    <line>
+      <![CDATA[$0.50]]>
+    </line>
+    <line>
+      <![CDATA[17:30 - 18:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.75]]>
+    </line>
+    <line>
+      <![CDATA[18:00 - 18:04]]>
+    </line>
+    <line>
+      <![CDATA[$1.15]]>
+    </line>
+    <line>
+      <![CDATA[18:04 - 18:25]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[18:25 - 18:30]]>
+    </line>
+    <line>
+      <![CDATA[$1.25]]>
+    </line>
+    <line>
+      <![CDATA[18:30 - 18:55]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[18:55 - 19:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.75]]>
+    </line>
+    <line>
+      <![CDATA[19:00 - 19:55]]>
+    </line>
+    <line>
+      <![CDATA[$0.50]]>
+    </line>
+    <line>
+      <![CDATA[19:55 - 20:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.25]]>
+    </line>
+    <line>
+      <![CDATA[20:00 - 22:30]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[22:30 - 23:59]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[Motorcycle (Saturday)]]>
+    </line>
+    <line>
+      <![CDATA[Car (Weekdays)]]>
+    </line>
+    <line>
+      <![CDATA[00:00 - 06:59]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[07:00 - 08:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[08:00 - 08:04]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[08:04 - 08:30]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[08:30 - 09:00]]>
+    </line>
+    <line>
+      <![CDATA[$2.50]]>
+    </line>
+    <line>
+      <![CDATA[09:00 - 09:25]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[09:25 - 09:30]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[09:30 - 09:55]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[09:55 - 10:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.50]]>
+    </line>
+    <line>
+      <![CDATA[10:00 - 12:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[12:00 - 12:04]]>
+    </line>
+    <line>
+      <![CDATA[$0.50]]>
+    </line>
+    <line>
+      <![CDATA[12:04 - 14:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[14:00 - 14:04]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[14:04 - 14:55]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[14:55 - 15:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[15:00 - 17:30]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[17:30 - 18:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[18:00 - 18:04]]>
+    </line>
+    <line>
+      <![CDATA[$2.30]]>
+    </line>
+    <line>
+      <![CDATA[18:04 - 18:25]]>
+    </line>
+    <line>
+      <![CDATA[$3.00]]>
+    </line>
+    <line>
+      <![CDATA[18:25 - 18:30]]>
+    </line>
+    <line>
+      <![CDATA[$2.50]]>
+    </line>
+    <line>
+      <![CDATA[18:30 - 18:55]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[18:55 - 19:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[19:00 - 19:55]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[19:55 - 20:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.50]]>
+    </line>
+    <line>
+      <![CDATA[20:00 - 22:30]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[22:30 - 23:59]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[Large Vehicle (Saturday)]]>
+    </line>
+    <line>
+      <![CDATA[Heavy Vehicle (Weekdays)]]>
+    </line>
+    <line>
+      <![CDATA[00:00 - 06:59]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[07:00 - 08:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[08:00 - 08:04]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[08:04 - 08:30]]>
+    </line>
+    <line>
+      <![CDATA[$3.00]]>
+    </line>
+    <line>
+      <![CDATA[08:30 - 09:00]]>
+    </line>
+    <line>
+      <![CDATA[$3.75]]>
+    </line>
+    <line>
+      <![CDATA[09:00 - 09:25]]>
+    </line>
+    <line>
+      <![CDATA[$3.00]]>
+    </line>
+    <line>
+      <![CDATA[09:25 - 09:30]]>
+    </line>
+    <line>
+      <![CDATA[$2.25]]>
+    </line>
+    <line>
+      <![CDATA[09:30 - 09:55]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[09:55 - 10:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.75]]>
+    </line>
+    <line>
+      <![CDATA[10:00 - 12:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[12:00 - 12:04]]>
+    </line>
+    <line>
+      <![CDATA[$0.75]]>
+    </line>
+    <line>
+      <![CDATA[12:04 - 14:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[14:00 - 14:04]]>
+    </line>
+    <line>
+      <![CDATA[$2.25]]>
+    </line>
+    <line>
+      <![CDATA[14:04 - 14:55]]>
+    </line>
+    <line>
+      <![CDATA[$3.00]]>
+    </line>
+    <line>
+      <![CDATA[14:55 - 15:00]]>
+    </line>
+    <line>
+      <![CDATA[$2.25]]>
+    </line>
+    <line>
+      <![CDATA[15:00 - 17:30]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[17:30 - 18:00]]>
+    </line>
+    <line>
+      <![CDATA[$2.25]]>
+    </line>
+    <line>
+      <![CDATA[18:00 - 18:04]]>
+    </line>
+    <line>
+      <![CDATA[$3.45]]>
+    </line>
+    <line>
+      <![CDATA[18:04 - 18:25]]>
+    </line>
+    <line>
+      <![CDATA[$4.50]]>
+    </line>
+    <line>
+      <![CDATA[18:25 - 18:30]]>
+    </line>
+    <line>
+      <![CDATA[$3.75]]>
+    </line>
+    <line>
+      <![CDATA[18:30 - 18:55]]>
+    </line>
+    <line>
+      <![CDATA[$3.00]]>
+    </line>
+    <line>
+      <![CDATA[18:55 - 19:00]]>
+    </line>
+    <line>
+      <![CDATA[$2.25]]>
+    </line>
+    <line>
+      <![CDATA[19:00 - 19:55]]>
+    </line>
+    <line>
+      <![CDATA[$1.50]]>
+    </line>
+    <line>
+      <![CDATA[19:55 - 20:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.75]]>
+    </line>
+    <line>
+      <![CDATA[20:00 - 22:30]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[22:30 - 23:59]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[Heavy Vehicle (Saturday)]]>
+    </line>
+    <line>
+      <![CDATA[Very Heavh Vehicle (Weekdays)]]>
+    </line>
+    <line>
+      <![CDATA[00:00 - 06:59]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[07:00 - 08:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[08:00 - 08:04]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[08:04 - 08:30]]>
+    </line>
+    <line>
+      <![CDATA[$4.00]]>
+    </line>
+    <line>
+      <![CDATA[08:30 - 09:00]]>
+    </line>
+    <line>
+      <![CDATA[$5.00]]>
+    </line>
+    <line>
+      <![CDATA[09:00 - 09:25]]>
+    </line>
+    <line>
+      <![CDATA[$4.00]]>
+    </line>
+    <line>
+      <![CDATA[09:25 - 09:30]]>
+    </line>
+    <line>
+      <![CDATA[$3.00]]>
+    </line>
+    <line>
+      <![CDATA[09:30 - 09:55]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[09:55 - 10:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[10:00 - 12:00]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[12:00 - 12:04]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[12:04 - 14:00]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[14:00 - 14:04]]>
+    </line>
+    <line>
+      <![CDATA[$3.00]]>
+    </line>
+    <line>
+      <![CDATA[14:04 - 14:55]]>
+    </line>
+    <line>
+      <![CDATA[$4.00]]>
+    </line>
+    <line>
+      <![CDATA[14:55 - 15:00]]>
+    </line>
+    <line>
+      <![CDATA[$3.00]]>
+    </line>
+    <line>
+      <![CDATA[15:00 - 17:30]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[17:30 - 18:00]]>
+    </line>
+    <line>
+      <![CDATA[$3.00]]>
+    </line>
+    <line>
+      <![CDATA[18:00 - 18:04]]>
+    </line>
+    <line>
+      <![CDATA[$4.60]]>
+    </line>
+    <line>
+      <![CDATA[18:04 - 18:25]]>
+    </line>
+    <line>
+      <![CDATA[$6.00]]>
+    </line>
+    <line>
+      <![CDATA[18:25 - 18:30]]>
+    </line>
+    <line>
+      <![CDATA[$5.00]]>
+    </line>
+    <line>
+      <![CDATA[18:30 - 18:55]]>
+    </line>
+    <line>
+      <![CDATA[$4.00]]>
+    </line>
+    <line>
+      <![CDATA[18:55 - 19:00]]>
+    </line>
+    <line>
+      <![CDATA[$3.00]]>
+    </line>
+    <line>
+      <![CDATA[19:00 - 19:55]]>
+    </line>
+    <line>
+      <![CDATA[$2.00]]>
+    </line>
+    <line>
+      <![CDATA[19:55 - 20:00]]>
+    </line>
+    <line>
+      <![CDATA[$1.00]]>
+    </line>
+    <line>
+      <![CDATA[20:00 - 22:30]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[22:30 - 23:59]]>
+    </line>
+    <line>
+      <![CDATA[$0.00]]>
+    </line>
+    <line>
+      <![CDATA[Very Heavh Vehicle (Saturday)]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="18444" started-at="2017-08-18T03:43:14Z" finished-at="2017-08-18T03:43:32Z">
+  <suite name="Suite" duration-ms="675161" started-at="2017-08-24T12:40:57Z" finished-at="2017-08-24T12:52:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18444" started-at="2017-08-18T03:43:14Z" finished-at="2017-08-18T03:43:32Z">
+    <test name="Test" duration-ms="675161" started-at="2017-08-24T12:40:57Z" finished-at="2017-08-24T12:52:12Z">
       <class name="com.mapsynq.testclass.TestMapsynq">
-        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="LaunchURL" duration-ms="7214" started-at="2017-08-18T09:13:14Z" description="Open a browser with http://www.mapsynq.com/ url" finished-at="2017-08-18T09:13:21Z">
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="LaunchURL" duration-ms="7020" started-at="2017-08-24T18:10:57Z" description="Open a browser with http://www.mapsynq.com/ url" finished-at="2017-08-24T18:11:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchURL -->
-        <test-method status="PASS" signature="clickDirectiontab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="clickDirectiontab" duration-ms="426" started-at="2017-08-18T09:13:21Z" description="Click Directions Tab " finished-at="2017-08-18T09:13:21Z">
+        <test-method status="PASS" signature="clickDirectiontab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="clickDirectiontab" duration-ms="346" started-at="2017-08-24T18:11:04Z" description="Click Directions Tab " finished-at="2017-08-24T18:11:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickDirectiontab -->
-        <test-method status="PASS" signature="testClearRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="testClearRoute" duration-ms="348" started-at="2017-08-18T09:13:21Z" description="Click Clear Route link under Directions Page" finished-at="2017-08-18T09:13:22Z">
+        <test-method status="PASS" signature="testClearRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="testClearRoute" duration-ms="295" started-at="2017-08-24T18:11:04Z" description="Click Clear Route link under Directions Page" finished-at="2017-08-24T18:11:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClearRoute -->
-        <test-method status="PASS" signature="testBlankSourceDesinationTraficAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="testBlankSourceDesinationTraficAwareRoute" duration-ms="5459" started-at="2017-08-18T09:13:22Z" description="Click Get Directions button with blank A and B fields under Directions Page" finished-at="2017-08-18T09:13:27Z">
+        <test-method status="PASS" signature="testBlankSourceDesinationTraficAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="testBlankSourceDesinationTraficAwareRoute" duration-ms="5726" started-at="2017-08-24T18:11:04Z" description="Click Get Directions button with blank A and B fields under Directions Page" finished-at="2017-08-24T18:11:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBlankSourceDesinationTraficAwareRoute -->
-        <test-method status="PASS" signature="testTraficAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="testTraficAwareRoute" duration-ms="2176" started-at="2017-08-18T09:13:27Z" description="Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-18T09:13:29Z">
+        <test-method status="PASS" signature="testTraficAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="testTraficAwareRoute" duration-ms="22322" started-at="2017-08-24T18:11:10Z" description="Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-24T18:11:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTraficAwareRoute -->
-        <test-method status="PASS" signature="TestTollAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="TestTollAwareRoute" duration-ms="749" started-at="2017-08-18T09:13:29Z" description="Uncheck Trafic Aware and Checked Toll Aware,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-18T09:13:30Z">
+        <test-method status="PASS" signature="TestTollAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="TestTollAwareRoute" duration-ms="3633" started-at="2017-08-24T18:11:32Z" description="Uncheck Trafic Aware and Checked Toll Aware,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-24T18:11:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTollAwareRoute -->
-        <test-method status="PASS" signature="TestFatestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="TestFatestRoute" duration-ms="968" started-at="2017-08-18T09:13:30Z" description="Uncheck Toll Aware and Checked Fatest,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-18T09:13:31Z">
+        <test-method status="PASS" signature="TestFatestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="TestFatestRoute" duration-ms="699" started-at="2017-08-24T18:11:36Z" description="Uncheck Toll Aware and Checked Fatest,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-24T18:11:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFatestRoute -->
-        <test-method status="PASS" signature="TestShortestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="TestShortestRoute" duration-ms="757" started-at="2017-08-18T09:13:31Z" description="Uncheck Fatest and Checked Shortest,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-18T09:13:32Z">
+        <test-method status="PASS" signature="TestShortestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="TestShortestRoute" duration-ms="201" started-at="2017-08-24T18:11:37Z" description="Uncheck Fatest and Checked Shortest,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-24T18:11:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestShortestRoute -->
-        <test-method status="PASS" signature="ClickLiveTab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="ClickLiveTab" duration-ms="330" started-at="2017-08-18T09:13:32Z" description="Click Live Tab" finished-at="2017-08-18T09:13:32Z">
+        <test-method status="PASS" signature="ClickLiveTab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="ClickLiveTab" duration-ms="160" started-at="2017-08-24T18:11:37Z" description="Click Live Tab" finished-at="2017-08-24T18:11:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickLiveTab -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@42d3bd8b]" name="closeBrowser" duration-ms="0" started-at="2017-08-18T09:13:32Z" finished-at="2017-08-18T09:13:32Z">
+        <test-method status="PASS" signature="CheckSingaporeLiveTrafficNews()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="CheckSingaporeLiveTrafficNews" duration-ms="352" started-at="2017-08-24T18:11:37Z" description="Check Singapore Live Traffic News" finished-at="2017-08-24T18:11:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[19:39
+Vehicle breakdown on PIE towards Tuas after Eng Neo Ave. Avoid lane 5.]]>
+            </line>
+            <line>
+              <![CDATA[19:39
+Obstacle on Jalan Buroh towards City after Penjuru Road. Avoid left lane.]]>
+            </line>
+            <line>
+              <![CDATA[19:30
+Road Closure on Loke Yew Street near Hill Street Loke Yew Street Junction.]]>
+            </line>
+            <line>
+              <![CDATA[19:30
+Road Closure on Armenian Street near Armenian Street Loke Yew Street Junction.]]>
+            </line>
+            <line>
+              <![CDATA[19:30
+Road Closure on Armenian Street near Armenian Street Fort Canning Link Junction.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckSingaporeLiveTrafficNews -->
+        <test-method status="PASS" signature="ClickCameraTab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="ClickCameraTab" duration-ms="210" started-at="2017-08-24T18:11:37Z" description="Click Camera Tab Under Live Page" finished-at="2017-08-24T18:11:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
+        </test-method> <!-- ClickCameraTab -->
+        <test-method status="PASS" signature="SingaporeLiveTrafficCameras()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="SingaporeLiveTrafficCameras" duration-ms="176" started-at="2017-08-24T18:11:38Z" description="Check Singapore Live Traffic Cameras" finished-at="2017-08-24T18:11:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Adam Road (Towards Changi)
+After Tuas West Road (Towards Tuas)
+After Tuas West Road (Towards Tuas)
+Alexandra Road (Towards MCE)
+Ang Mo Kio Ave 1 Flyover
+Ang Mo Kio Ave 5 Flyover (Towards City)
+Bedok North (Towards Jurong)
+Benjamin Sheares Bridge
+Braddell Flyover (Towards SLE)
+Bukit Merah Flyover
+Bukit Timah Expressway (Towards Changi)
+Central Boulevard Ramp onto MCE(AYE)
+Chantek Flyover (Towards PIE)
+Choa Chu Kang (Towards PIE)
+Dairy Farm Flyover (Towards PIE)
+Defu Flyover
+Entrance from Chin Swee Road (Towards SLE)
+Entrance from MCE (Towards Changi)
+Entrance from PIE (Towards Changi)
+Eunos Flyover (Towards Jurong)
+Exit 2A to Changi Coast Road (Towards City)
+Exit 6 to Bukit Timah Road
+Fort Road
+Jurong West ST81 (Towards Jurong)
+Kallang Bahru
+Kallang Way Flyover
+Keppel Viaduct
+Kim Keat (Towards Changi)
+KPE / Aljunied West Flyover
+KPE/PIE
+Laguna Flyover (Towards Changi)
+Lentor Flyover (Towards TPE)
+Lower Delta Road (Towards City)
+Marina Bay (Towards AYE)
+Marina Blvd Ramp onto MCE(KPE)
+Marine Parade Flyover (Towards City)
+MCE(AYE) Start of Expressway
+MCE(KPE) Before Exit 2 Central Blvd
+Moulmein Flyover (Towards AYE)
+Mount Pleasant (Towards Jurong)
+Near Dover ITE (Towards MCE)
+Near NUS (Towards Tuas)
+Pandan Gardens (Towards Tuas)
+Paya Lebar Flyover (Towards Jurong)
+Rivervale Drive (Towards SLE)
+Second Link at Tuas
+Seletar Flyover (Towards BKE)
+Sentosa Gateway (Towards Sentosa)
+Sentosa Gateway (Towards Telok Blangah)
+St George Road (Towards SLE)
+Tampines Flyover
+Tanjong Katong Flyover (Towards Changi)
+Tanjong Rhu (Towards MCE)
+Thomson Road
+Tuas Checkpoint
+Upper Changi Flyover (Towards PIE)
+Woodlands Causeway (Towards Johor)
+Woodlands Checkpoint (Towards BKE)
+Woodlands Flyover (Towards Checkpoint)
+Woodlands South Flyover (Towards Woodlands)
+Woodsville Flyover (Towards Changi)
+Yio Chu Kang Flyover]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SingaporeLiveTrafficCameras -->
+        <test-method status="PASS" signature="MalaysiaLiveTrafficCameras()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="MalaysiaLiveTrafficCameras" duration-ms="131" started-at="2017-08-24T18:11:38Z" description="Check Malaysia Live Traffic Cameras" finished-at="2017-08-24T18:11:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Bangunan DBKL
+Bulatan Dato
+Bulatan Kg Pandan
+Bulatan Segambut
+DBP
+Desa Petaling
+Esso
+exit Jalan Robson
+Hentian Putra
+HKL
+Istana Budaya
+Jalan Usahawan Junction
+Jejambat Jln
+Kedutaan Perancis
+Klinik Pergigian Bangsar
+Pasar Besar Gombak
+Pavilion
+Persiaran Titiwangsa
+Petronas TPM
+PJ Hilton
+Sheraton Imperial
+Taman Bukit Jalil
+Taman Duta
+Taman Midah
+uta Vista]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MalaysiaLiveTrafficCameras -->
+        <test-method status="PASS" signature="SrilankaLiveTrafficCameras()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="SrilankaLiveTrafficCameras" duration-ms="129" started-at="2017-08-24T18:11:38Z" description="Check Srilanka Live Traffic Cameras" finished-at="2017-08-24T18:11:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Ayurveda Junction
+Bambalapitiya Junction
+Baseline Road
+Castle Hospital
+Jawatte Mosque
+Kaduwela Junction
+Kiribathgoda Junction
+Kollupitiya
+Kollupitiya Junction
+Pamankada Junction
+Papilyana Road
+Unity Plaza
+Wellawatta
+William Junction]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SrilankaLiveTrafficCameras -->
+        <test-method status="PASS" signature="TestCountTotalLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="TestCountTotalLink" duration-ms="184" started-at="2017-08-24T18:11:38Z" description="Test Count of links and images" finished-at="2017-08-24T18:11:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[507]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCountTotalLink -->
+        <test-method status="PASS" signature="TestCountInvalidLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="TestCountInvalidLink" duration-ms="18382" started-at="2017-08-24T18:11:38Z" description="Test Count of invalid links and images" finished-at="2017-08-24T18:11:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[405]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCountInvalidLink -->
+        <test-method status="PASS" signature="ClickTollsLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="ClickTollsLink" duration-ms="140" started-at="2017-08-24T18:11:57Z" description="Click Tolls Tab" finished-at="2017-08-24T18:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickTollsLink -->
+        <test-method status="PASS" signature="CheckSingaporeTolls()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="CheckSingaporeTolls" duration-ms="837" started-at="2017-08-24T18:11:57Z" description="Check Singapore Tolls" finished-at="2017-08-24T18:11:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Anson Road]]>
+            </line>
+            <line>
+              <![CDATA[AYE to City before Alexandra Road]]>
+            </line>
+            <line>
+              <![CDATA[Bayfront Avenue towards Marina Boulevard]]>
+            </line>
+            <line>
+              <![CDATA[Bayfront Avenue towards Raffles Avenue]]>
+            </line>
+            <line>
+              <![CDATA[Beach Road]]>
+            </line>
+            <line>
+              <![CDATA[Bencoolen Street]]>
+            </line>
+            <line>
+              <![CDATA[Bendemeer Road]]>
+            </line>
+            <line>
+              <![CDATA[Bt Timah Expressway (Sb betw Dairy Farm Rd & PIE)]]>
+            </line>
+            <line>
+              <![CDATA[Buyong Road]]>
+            </line>
+            <line>
+              <![CDATA[Cairnhill Road]]>
+            </line>
+            <line>
+              <![CDATA[Central Boulevard]]>
+            </line>
+            <line>
+              <![CDATA[Citybound AYE After Jurong Town Hall]]>
+            </line>
+            <line>
+              <![CDATA[Clemenceau Ave]]>
+            </line>
+            <line>
+              <![CDATA[Clementi Avenue 2 into AYE (City)]]>
+            </line>
+            <line>
+              <![CDATA[Clementi Avenue 6 into AYE (City)]]>
+            </line>
+            <line>
+              <![CDATA[CTE after Braddell Road]]>
+            </line>
+            <line>
+              <![CDATA[CTE before Braddell Road]]>
+            </line>
+            <line>
+              <![CDATA[CTE from Balestier Road]]>
+            </line>
+            <line>
+              <![CDATA[CTE from Serangoon Road]]>
+            </line>
+            <line>
+              <![CDATA[CTE Northbound after PIE]]>
+            </line>
+            <line>
+              <![CDATA[CTE Northbound before exit to PIE]]>
+            </line>
+            <line>
+              <![CDATA[CTE Slip Road to PIE (Changi) / Serangoon Road]]>
+            </line>
+            <line>
+              <![CDATA[Dunearn Road / Wayang Satu Flyover]]>
+            </line>
+            <line>
+              <![CDATA[Dunearn Road / Whitley Road]]>
+            </line>
+            <line>
+              <![CDATA[ECP Eastbound before exit to KPE]]>
+            </line>
+            <line>
+              <![CDATA[ECP to City]]>
+            </line>
+            <line>
+              <![CDATA[Eu Tong Sen Street]]>
+            </line>
+            <line>
+              <![CDATA[Eu Tong Seng Street at Central]]>
+            </line>
+            <line>
+              <![CDATA[Fort Canning Tunnel]]>
+            </line>
+            <line>
+              <![CDATA[Fullerton Road eastbound at Fullerton Hotel]]>
+            </line>
+            <line>
+              <![CDATA[Fullerton Road westbound at One Fullerton]]>
+            </line>
+            <line>
+              <![CDATA[Geylang Bahru]]>
+            </line>
+            <line>
+              <![CDATA[Geylang Road]]>
+            </line>
+            <line>
+              <![CDATA[Havelock Road/Clemenceau Ave]]>
+            </line>
+            <line>
+              <![CDATA[Havelock Road/CTE Exit]]>
+            </line>
+            <line>
+              <![CDATA[Kallang Bahru]]>
+            </line>
+            <line>
+              <![CDATA[Killiney Road]]>
+            </line>
+            <line>
+              <![CDATA[KPE Southbound exit to ECP (City)]]>
+            </line>
+            <line>
+              <![CDATA[Kramat Road]]>
+            </line>
+            <line>
+              <![CDATA[Lim Teck Kim Road]]>
+            </line>
+            <line>
+              <![CDATA[Marina Boulevard to MCE Eastbound]]>
+            </line>
+            <line>
+              <![CDATA[Maxwell Road]]>
+            </line>
+            <line>
+              <![CDATA[MCE Eastbound before exit to Central Boulevard]]>
+            </line>
+            <line>
+              <![CDATA[MCE Westbound before exit to Maxwell Road]]>
+            </line>
+            <line>
+              <![CDATA[MCE Westbound exit to Marina Coastal Drive]]>
+            </line>
+            <line>
+              <![CDATA[Merchant Road/Clemenceau Ave]]>
+            </line>
+            <line>
+              <![CDATA[Merchant Road/CTE Exit]]>
+            </line>
+            <line>
+              <![CDATA[New Bridge Road before Upper Circular Road]]>
+            </line>
+            <line>
+              <![CDATA[Nicoll Highway]]>
+            </line>
+            <line>
+              <![CDATA[North Bridge Road]]>
+            </line>
+            <line>
+              <![CDATA[Orchard Link]]>
+            </line>
+            <line>
+              <![CDATA[Orchard Road]]>
+            </line>
+            <line>
+              <![CDATA[Orchard Road after Handy Road]]>
+            </line>
+            <line>
+              <![CDATA[Orchard Road after YMCA]]>
+            </line>
+            <line>
+              <![CDATA[Orchard Turn]]>
+            </line>
+            <line>
+              <![CDATA[Oxley Road]]>
+            </line>
+            <line>
+              <![CDATA[PIE after Kallang Bahru on Woodsville Flyover]]>
+            </line>
+            <line>
+              <![CDATA[PIE into CTE]]>
+            </line>
+            <line>
+              <![CDATA[PIE slip road to Bendemeer Road]]>
+            </line>
+            <line>
+              <![CDATA[PIE to Changi / Whitley Road]]>
+            </line>
+            <line>
+              <![CDATA[PIE to Changi after Adam Road Exit]]>
+            </line>
+            <line>
+              <![CDATA[PIE to CTE Northbound before Braddell Road]]>
+            </line>
+            <line>
+              <![CDATA[PIE westbound before Eunos Link]]>
+            </line>
+            <line>
+              <![CDATA[Queen Street]]>
+            </line>
+            <line>
+              <![CDATA[Republic Boulevard]]>
+            </line>
+            <line>
+              <![CDATA[River Valley Road]]>
+            </line>
+            <line>
+              <![CDATA[Sheares Avenue towards Sheares Link]]>
+            </line>
+            <line>
+              <![CDATA[South Bridge Road before Upper Circular Road]]>
+            </line>
+            <line>
+              <![CDATA[Tanjong Pagar Road]]>
+            </line>
+            <line>
+              <![CDATA[Temasek Boulevard]]>
+            </line>
+            <line>
+              <![CDATA[Thomson Road after Toa Payoh Rise]]>
+            </line>
+            <line>
+              <![CDATA[Toa Payoh Lorong 6]]>
+            </line>
+            <line>
+              <![CDATA[Tuasbound AYE After North Buona Vista]]>
+            </line>
+            <line>
+              <![CDATA[Upper Boon Keng Road]]>
+            </line>
+            <line>
+              <![CDATA[Upper Bt Timah Rd Southbound after Hume Ave]]>
+            </line>
+            <line>
+              <![CDATA[Victoria Street]]>
+            </line>
+            <line>
+              <![CDATA[Woodsville Tunnel]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckSingaporeTolls -->
+        <test-method status="PASS" signature="CheckMalaysiaTolls()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="CheckMalaysiaTolls" duration-ms="647" started-at="2017-08-24T18:11:58Z" description="Check Malaysia Tolls" finished-at="2017-08-24T18:11:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Alam Impian]]>
+            </line>
+            <line>
+              <![CDATA[Awan Besar (East)]]>
+            </line>
+            <line>
+              <![CDATA[Awan Kecil (West)]]>
+            </line>
+            <line>
+              <![CDATA[Ayer Hitam]]>
+            </line>
+            <line>
+              <![CDATA[Ayer Panas]]>
+            </line>
+            <line>
+              <![CDATA[Bagan Ajam]]>
+            </line>
+            <line>
+              <![CDATA[Batu]]>
+            </line>
+            <line>
+              <![CDATA[Batu 11]]>
+            </line>
+            <line>
+              <![CDATA[Batu 9]]>
+            </line>
+            <line>
+              <![CDATA[Bentong]]>
+            </line>
+            <line>
+              <![CDATA[Bukit Jelutong]]>
+            </line>
+            <line>
+              <![CDATA[Bukit Kajang]]>
+            </line>
+            <line>
+              <![CDATA[Bukit Raja]]>
+            </line>
+            <line>
+              <![CDATA[Damansara A]]>
+            </line>
+            <line>
+              <![CDATA[Damansara B]]>
+            </line>
+            <line>
+              <![CDATA[East-West Link (E)]]>
+            </line>
+            <line>
+              <![CDATA[East-West Link (E)]]>
+            </line>
+            <line>
+              <![CDATA[Elmina]]>
+            </line>
+            <line>
+              <![CDATA[Gombak]]>
+            </line>
+            <line>
+              <![CDATA[Kampung Medan]]>
+            </line>
+            <line>
+              <![CDATA[Kapar]]>
+            </line>
+            <line>
+              <![CDATA[Kapar (E) to Bukit Raja]]>
+            </line>
+            <line>
+              <![CDATA[Kapar (E) to Port Klang]]>
+            </line>
+            <line>
+              <![CDATA[Kapar (W) to Bukit Raja]]>
+            </line>
+            <line>
+              <![CDATA[Kapar (W) to Port Klang]]>
+            </line>
+            <line>
+              <![CDATA[Kemuning]]>
+            </line>
+            <line>
+              <![CDATA[Keramat]]>
+            </line>
+            <line>
+              <![CDATA[Kerinchi Link]]>
+            </line>
+            <line>
+              <![CDATA[Kubang Semang]]>
+            </line>
+            <line>
+              <![CDATA[Lagong]]>
+            </line>
+            <line>
+              <![CDATA[Laluan Terus]]>
+            </line>
+            <line>
+              <![CDATA[Lema-Kedai]]>
+            </line>
+            <line>
+              <![CDATA[Lukut]]>
+            </line>
+            <line>
+              <![CDATA[Lunas]]>
+            </line>
+            <line>
+              <![CDATA[Mambau]]>
+            </line>
+            <line>
+              <![CDATA[Mines (S)]]>
+            </line>
+            <line>
+              <![CDATA[Mines (T)]]>
+            </line>
+            <line>
+              <![CDATA[Mont. Kiara]]>
+            </line>
+            <line>
+              <![CDATA[Pantai Dalam]]>
+            </line>
+            <line>
+              <![CDATA[Pantai Dalam (T)]]>
+            </line>
+            <line>
+              <![CDATA[Penang Bridge]]>
+            </line>
+            <line>
+              <![CDATA[Penchala]]>
+            </line>
+            <line>
+              <![CDATA[Perai]]>
+            </line>
+            <line>
+              <![CDATA[Perling]]>
+            </line>
+            <line>
+              <![CDATA[PETALING JAYA]]>
+            </line>
+            <line>
+              <![CDATA[Pjs 5]]>
+            </line>
+            <line>
+              <![CDATA[Puchong Barat]]>
+            </line>
+            <line>
+              <![CDATA[Puchong Selatan]]>
+            </line>
+            <line>
+              <![CDATA[Putrajaya]]>
+            </line>
+            <line>
+              <![CDATA[Salak Link]]>
+            </line>
+            <line>
+              <![CDATA[Salak Selatan]]>
+            </line>
+            <line>
+              <![CDATA[Saujana Putra]]>
+            </line>
+            <line>
+              <![CDATA[Sentul Pasar]]>
+            </line>
+            <line>
+              <![CDATA[Seri Muda]]>
+            </line>
+            <line>
+              <![CDATA[Sg. Nyior]]>
+            </line>
+            <line>
+              <![CDATA[SMART Tunnel]]>
+            </line>
+            <line>
+              <![CDATA[Sungai Balak]]>
+            </line>
+            <line>
+              <![CDATA[Sungai Long]]>
+            </line>
+            <line>
+              <![CDATA[Sungai Ramal (E)]]>
+            </line>
+            <line>
+              <![CDATA[Sungai Ramal (W)]]>
+            </line>
+            <line>
+              <![CDATA[Sunway]]>
+            </line>
+            <line>
+              <![CDATA[Toll Gelang Patah]]>
+            </line>
+            <line>
+              <![CDATA[Toll Kempas]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckMalaysiaTolls -->
+        <test-method status="PASS" signature="CheckThialndTolls()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="CheckThialndTolls" duration-ms="1142" started-at="2017-08-24T18:11:58Z" description="Check Thiland Tolls" finished-at="2017-08-24T18:11:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ANUSON SATHAN 1/1 (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[ANUSON SATHAN 1/2 (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[ASOK 1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[ASOK 2 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[ASOK 3 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[ASOK 4 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[AT NARONG  TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[AT NARONG 1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[AT NARONG 1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[AT NARONG 2 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[BANG KHEN TOLL GATE (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[BANG KHRU TOLL GATE-OUTBOUND 2 (BANG PLI-SUKSAWAT EXPRESSWAY)]]>
+            </line>
+            <line>
+              <![CDATA[BANG NA TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[BANG PA-IN TOLL GATE-INBOUND]]>
+            </line>
+            <line>
+              <![CDATA[BANG PA-IN TOLL GATE-OUTBOUND]]>
+            </line>
+            <line>
+              <![CDATA[BANG PHUN TOLL GATE-INBOUND]]>
+            </line>
+            <line>
+              <![CDATA[BANG PHUN TOLL GATE-OUTBOUND]]>
+            </line>
+            <line>
+              <![CDATA[BANG SUE TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[BANGCHAK TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[CHAENG WATTHANA 1 TOLL GATE (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[CHAENG WATTHANA 2 TOLL GATE (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[CHAN TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[CHATUCHOT TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[CHIANG RAK TOLL GATE-INBOUND]]>
+            </line>
+            <line>
+              <![CDATA[CHIANG RAK TOLL GATE-OUTBOUND]]>
+            </line>
+            <line>
+              <![CDATA[DAO KHANONG TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[DIN DAENG 1 TOLL GATE (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[DIN DAENG 2 TOLL GATE (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[DIN DAENG TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[DIN DAENG TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[DIN DAENG TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[DON MUEANG 1 TOLL GATE (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[DON MUEANG 2 TOLL GATE (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[HUA LAMPHONG TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[KHLONG PRAPA 1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[KHLONG PRAPA 2 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[LAK SI TOLL GATE-INBOUND (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[LAT KRABANG TOLL GATE-INBOUND (MOTORWAY)]]>
+            </line>
+            <line>
+              <![CDATA[LAT KRABANG TOLL GATE-OUTBOUND (MOTORWAY)]]>
+            </line>
+            <line>
+              <![CDATA[LAT PHRAO TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[LAT PHRAO TOLL GATE-INBOUND (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[LAT PHRAO TOLL GATE-OUTBOUND (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[LIAB MAENAM TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[MUEANG THONG THANI TOLL GATE-INBOUND]]>
+            </line>
+            <line>
+              <![CDATA[MUEANG THONG THANI TOLL GATE-OUTBOUND]]>
+            </line>
+            <line>
+              <![CDATA[NGAM WONGWAN 1 TOLL GATE-OUTBOUND]]>
+            </line>
+            <line>
+              <![CDATA[NGAM WONGWAN 2 TOLL GATE-INBOUND]]>
+            </line>
+            <line>
+              <![CDATA[PHAHON YOTHIN 1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[PHAHON YOTHIN 2 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[PHAN THONG TOLL GATE-INBOUND (MOTORWAY)]]>
+            </line>
+            <line>
+              <![CDATA[PHAN THONG TOLL GATE-OUTBOUND (MOTORWAY)]]>
+            </line>
+            <line>
+              <![CDATA[PHATTHANAKAN 1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[PHATTHANAKAN 2 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[PHETCHABURI TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[PHRA KHANONG TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[PRACHA UTHIT TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[PRACHACHUEN 1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[PRACHACHUEN 2 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[PRACHACHUEN TOLL GATE-INBOUND]]>
+            </line>
+            <line>
+              <![CDATA[PRACHACHUEN TOLL GATE-OUTBOUND]]>
+            </line>
+            <line>
+              <![CDATA[RAM INTHRA 1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RAM INTHRA TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 3 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 4-1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 4-2 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 9-1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 9-1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 9-1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 9-1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 9-1 TOLL GATE (CHALONG RAT)]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 9-1 TOLL GATE (CHALONG RAT)]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 9-1 TOLL GATE (CHALONG RAT)]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 9-1 TOLL GATE (CHALONG RAT)]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 9-2 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RAMA 9 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RAMKHAMHAENG TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[RATCHADAPHISEK 1 TOLL GATE (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[RATCHADAPHISEK 2 TOLL GATE (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[RATCHADAPHISEK TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SAPHAN SAWANG TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SATHON TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SATHU PRADIT 1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SATHU PRADIT 2 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SATHU PRADIT 3 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SINAKHARIN TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SISAMAN TOLL GATE-INBOUND]]>
+            </line>
+            <line>
+              <![CDATA[SISAMAN TOLL GATE-OUTBOUND]]>
+            </line>
+            <line>
+              <![CDATA[SUKHA PHIBAN 5-1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SUKHA PHIBAN 5-2 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SUKHUMVIT 62 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SUKHUMVIT TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SUKSAWAT TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SURAWONG TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[SUTTHISAN TOLL GATE (DON MUEANG TOLL WAY)]]>
+            </line>
+            <line>
+              <![CDATA[THA RUEA 1 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[THA RUEA 2 TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[THANYA BURI TOLL GATE-INBOUND (KANCHANA PHISEK)]]>
+            </line>
+            <line>
+              <![CDATA[THANYA BURI TOLL GATE-OUTBOUND (KANCHANA PHISEK)]]>
+            </line>
+            <line>
+              <![CDATA[THAP CHANG TOLL GATE-INBOUND (KANCHANA PHISEK)]]>
+            </line>
+            <line>
+              <![CDATA[THAP CHANG TOLL GATE-OUTBOUND (KANCHANA PHISEK)]]>
+            </line>
+            <line>
+              <![CDATA[THAP CHANG TOLL GATE-OUTBOUND (KANCHANA PHISEK)]]>
+            </line>
+            <line>
+              <![CDATA[TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[TOLL GATE (GO TO CHALONGRAT)]]>
+            </line>
+            <line>
+              <![CDATA[URUPHONG TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[YAN PHAHON YOTHIN TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[YOM MARAT TOLL GATE]]>
+            </line>
+            <line>
+              <![CDATA[YOTHIN PHATTHANA TOLL GATE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckThialndTolls -->
+        <test-method status="PASS" signature="ClickFirstSignaporeTollLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="ClickFirstSignaporeTollLink" duration-ms="937" started-at="2017-08-24T18:11:59Z" description="Click First Singapore Toll Link" finished-at="2017-08-24T18:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickFirstSignaporeTollLink -->
+        <test-method status="PASS" signature="SwitchToPriceListDropdown()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="SwitchToPriceListDropdown" duration-ms="100169" started-at="2017-08-24T18:12:00Z" description="Switch To Price List Dropdown" finished-at="2017-08-24T18:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchToPriceListDropdown -->
+        <test-method status="PASS" signature="GetPriceAndRatesLargeVehicleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesLargeVehicleWeekdays" duration-ms="2241" started-at="2017-08-24T18:13:41Z" description="Get Time and Toll Rates Large Vehicle (Weekdays) of Singapore First Toll link " finished-at="2017-08-24T18:13:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Large Vehicle (Weekdays)]]>
+            </line>
+            <line>
+              <![CDATA[00:00 - 06:59]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[07:00 - 08:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[08:00 - 08:04]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[08:04 - 08:30]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[08:30 - 09:00]]>
+            </line>
+            <line>
+              <![CDATA[$2.50]]>
+            </line>
+            <line>
+              <![CDATA[09:00 - 09:25]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[09:25 - 09:30]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[09:30 - 09:55]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[09:55 - 10:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.50]]>
+            </line>
+            <line>
+              <![CDATA[10:00 - 12:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[12:00 - 12:04]]>
+            </line>
+            <line>
+              <![CDATA[$0.50]]>
+            </line>
+            <line>
+              <![CDATA[12:04 - 14:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[14:00 - 14:04]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[14:04 - 14:55]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[14:55 - 15:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[15:00 - 17:30]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[17:30 - 18:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[18:00 - 18:04]]>
+            </line>
+            <line>
+              <![CDATA[$2.30]]>
+            </line>
+            <line>
+              <![CDATA[18:04 - 18:25]]>
+            </line>
+            <line>
+              <![CDATA[$3.00]]>
+            </line>
+            <line>
+              <![CDATA[18:25 - 18:30]]>
+            </line>
+            <line>
+              <![CDATA[$2.50]]>
+            </line>
+            <line>
+              <![CDATA[18:30 - 18:55]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[18:55 - 19:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[19:00 - 19:55]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[19:55 - 20:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.50]]>
+            </line>
+            <line>
+              <![CDATA[20:00 - 22:30]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[22:30 - 23:59]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetPriceAndRatesLargeVehicleWeekdays -->
+        <test-method status="PASS" signature="GetPriceAndRatesCarSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesCarSaturday" duration-ms="100153" started-at="2017-08-24T18:13:43Z" description="Get Time and Toll Rates Car (Saturday) of Singapore First Toll link" finished-at="2017-08-24T18:15:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Car (Saturday)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetPriceAndRatesCarSaturday -->
+        <test-method status="PASS" signature="GetPriceAndRatesMotorCycleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesMotorCycleWeekdays" duration-ms="1945" started-at="2017-08-24T18:15:23Z" description="Get Time and Toll Rates MotorCycle (Weekdays) of Singapore First Toll link" finished-at="2017-08-24T18:15:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Motorcycle (Weekdays)]]>
+            </line>
+            <line>
+              <![CDATA[00:00 - 06:59]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[07:00 - 08:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[08:00 - 08:04]]>
+            </line>
+            <line>
+              <![CDATA[$0.50]]>
+            </line>
+            <line>
+              <![CDATA[08:04 - 08:30]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[08:30 - 09:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.25]]>
+            </line>
+            <line>
+              <![CDATA[09:00 - 09:25]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[09:25 - 09:30]]>
+            </line>
+            <line>
+              <![CDATA[$0.75]]>
+            </line>
+            <line>
+              <![CDATA[09:30 - 09:55]]>
+            </line>
+            <line>
+              <![CDATA[$0.50]]>
+            </line>
+            <line>
+              <![CDATA[09:55 - 10:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.25]]>
+            </line>
+            <line>
+              <![CDATA[10:00 - 12:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[12:00 - 12:04]]>
+            </line>
+            <line>
+              <![CDATA[$0.25]]>
+            </line>
+            <line>
+              <![CDATA[12:04 - 14:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.50]]>
+            </line>
+            <line>
+              <![CDATA[14:00 - 14:04]]>
+            </line>
+            <line>
+              <![CDATA[$0.75]]>
+            </line>
+            <line>
+              <![CDATA[14:04 - 14:55]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[14:55 - 15:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.75]]>
+            </line>
+            <line>
+              <![CDATA[15:00 - 17:30]]>
+            </line>
+            <line>
+              <![CDATA[$0.50]]>
+            </line>
+            <line>
+              <![CDATA[17:30 - 18:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.75]]>
+            </line>
+            <line>
+              <![CDATA[18:00 - 18:04]]>
+            </line>
+            <line>
+              <![CDATA[$1.15]]>
+            </line>
+            <line>
+              <![CDATA[18:04 - 18:25]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[18:25 - 18:30]]>
+            </line>
+            <line>
+              <![CDATA[$1.25]]>
+            </line>
+            <line>
+              <![CDATA[18:30 - 18:55]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[18:55 - 19:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.75]]>
+            </line>
+            <line>
+              <![CDATA[19:00 - 19:55]]>
+            </line>
+            <line>
+              <![CDATA[$0.50]]>
+            </line>
+            <line>
+              <![CDATA[19:55 - 20:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.25]]>
+            </line>
+            <line>
+              <![CDATA[20:00 - 22:30]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[22:30 - 23:59]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetPriceAndRatesMotorCycleWeekdays -->
+        <test-method status="PASS" signature="GetPriceAndRatesMotorCycleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesMotorCycleSaturday" duration-ms="100141" started-at="2017-08-24T18:15:25Z" description="Get Time and Toll Rates MotorCycle (Saturday) of Singapore First Toll link" finished-at="2017-08-24T18:17:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Motorcycle (Saturday)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetPriceAndRatesMotorCycleSaturday -->
+        <test-method status="PASS" signature="GetPriceAndRatesCarWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesCarWeekdays" duration-ms="1823" started-at="2017-08-24T18:17:05Z" description="Get Time and Toll Rates Car (Weekdays) of Singapore First Toll link" finished-at="2017-08-24T18:17:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Car (Weekdays)]]>
+            </line>
+            <line>
+              <![CDATA[00:00 - 06:59]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[07:00 - 08:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[08:00 - 08:04]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[08:04 - 08:30]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[08:30 - 09:00]]>
+            </line>
+            <line>
+              <![CDATA[$2.50]]>
+            </line>
+            <line>
+              <![CDATA[09:00 - 09:25]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[09:25 - 09:30]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[09:30 - 09:55]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[09:55 - 10:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.50]]>
+            </line>
+            <line>
+              <![CDATA[10:00 - 12:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[12:00 - 12:04]]>
+            </line>
+            <line>
+              <![CDATA[$0.50]]>
+            </line>
+            <line>
+              <![CDATA[12:04 - 14:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[14:00 - 14:04]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[14:04 - 14:55]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[14:55 - 15:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[15:00 - 17:30]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[17:30 - 18:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[18:00 - 18:04]]>
+            </line>
+            <line>
+              <![CDATA[$2.30]]>
+            </line>
+            <line>
+              <![CDATA[18:04 - 18:25]]>
+            </line>
+            <line>
+              <![CDATA[$3.00]]>
+            </line>
+            <line>
+              <![CDATA[18:25 - 18:30]]>
+            </line>
+            <line>
+              <![CDATA[$2.50]]>
+            </line>
+            <line>
+              <![CDATA[18:30 - 18:55]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[18:55 - 19:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[19:00 - 19:55]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[19:55 - 20:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.50]]>
+            </line>
+            <line>
+              <![CDATA[20:00 - 22:30]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[22:30 - 23:59]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetPriceAndRatesCarWeekdays -->
+        <test-method status="PASS" signature="GetPriceAndRatesLargeVehicleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesLargeVehicleSaturday" duration-ms="100267" started-at="2017-08-24T18:17:07Z" description="Get Time and Toll Rates Large Vehicle (Saturday) of Singapore First Toll link" finished-at="2017-08-24T18:18:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Large Vehicle (Saturday)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetPriceAndRatesLargeVehicleSaturday -->
+        <test-method status="PASS" signature="GetPriceAndRatesHeavyVehicleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesHeavyVehicleWeekdays" duration-ms="2031" started-at="2017-08-24T18:18:47Z" description="Get Time and Toll Rates Heavy Vehicle (Weekdays) of Singapore First Toll link" finished-at="2017-08-24T18:18:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Heavy Vehicle (Weekdays)]]>
+            </line>
+            <line>
+              <![CDATA[00:00 - 06:59]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[07:00 - 08:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[08:00 - 08:04]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[08:04 - 08:30]]>
+            </line>
+            <line>
+              <![CDATA[$3.00]]>
+            </line>
+            <line>
+              <![CDATA[08:30 - 09:00]]>
+            </line>
+            <line>
+              <![CDATA[$3.75]]>
+            </line>
+            <line>
+              <![CDATA[09:00 - 09:25]]>
+            </line>
+            <line>
+              <![CDATA[$3.00]]>
+            </line>
+            <line>
+              <![CDATA[09:25 - 09:30]]>
+            </line>
+            <line>
+              <![CDATA[$2.25]]>
+            </line>
+            <line>
+              <![CDATA[09:30 - 09:55]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[09:55 - 10:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.75]]>
+            </line>
+            <line>
+              <![CDATA[10:00 - 12:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[12:00 - 12:04]]>
+            </line>
+            <line>
+              <![CDATA[$0.75]]>
+            </line>
+            <line>
+              <![CDATA[12:04 - 14:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[14:00 - 14:04]]>
+            </line>
+            <line>
+              <![CDATA[$2.25]]>
+            </line>
+            <line>
+              <![CDATA[14:04 - 14:55]]>
+            </line>
+            <line>
+              <![CDATA[$3.00]]>
+            </line>
+            <line>
+              <![CDATA[14:55 - 15:00]]>
+            </line>
+            <line>
+              <![CDATA[$2.25]]>
+            </line>
+            <line>
+              <![CDATA[15:00 - 17:30]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[17:30 - 18:00]]>
+            </line>
+            <line>
+              <![CDATA[$2.25]]>
+            </line>
+            <line>
+              <![CDATA[18:00 - 18:04]]>
+            </line>
+            <line>
+              <![CDATA[$3.45]]>
+            </line>
+            <line>
+              <![CDATA[18:04 - 18:25]]>
+            </line>
+            <line>
+              <![CDATA[$4.50]]>
+            </line>
+            <line>
+              <![CDATA[18:25 - 18:30]]>
+            </line>
+            <line>
+              <![CDATA[$3.75]]>
+            </line>
+            <line>
+              <![CDATA[18:30 - 18:55]]>
+            </line>
+            <line>
+              <![CDATA[$3.00]]>
+            </line>
+            <line>
+              <![CDATA[18:55 - 19:00]]>
+            </line>
+            <line>
+              <![CDATA[$2.25]]>
+            </line>
+            <line>
+              <![CDATA[19:00 - 19:55]]>
+            </line>
+            <line>
+              <![CDATA[$1.50]]>
+            </line>
+            <line>
+              <![CDATA[19:55 - 20:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.75]]>
+            </line>
+            <line>
+              <![CDATA[20:00 - 22:30]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[22:30 - 23:59]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetPriceAndRatesHeavyVehicleWeekdays -->
+        <test-method status="PASS" signature="GetPriceAndRatesHeavyVehicleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesHeavyVehicleSaturday" duration-ms="100202" started-at="2017-08-24T18:18:49Z" description="Get Time and Toll Rates Heavy Vehicle (Saturday) of Singapore First Toll link" finished-at="2017-08-24T18:20:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Heavy Vehicle (Saturday)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetPriceAndRatesHeavyVehicleSaturday -->
+        <test-method status="PASS" signature="GetPriceAndRatesVeryHeavhVehicleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesVeryHeavhVehicleWeekdays" duration-ms="2267" started-at="2017-08-24T18:20:29Z" description="Get Time and Toll Rates Very Heavh Vehicle (Weekdays) of Singapore First Toll link" finished-at="2017-08-24T18:20:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Very Heavh Vehicle (Weekdays)]]>
+            </line>
+            <line>
+              <![CDATA[00:00 - 06:59]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[07:00 - 08:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[08:00 - 08:04]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[08:04 - 08:30]]>
+            </line>
+            <line>
+              <![CDATA[$4.00]]>
+            </line>
+            <line>
+              <![CDATA[08:30 - 09:00]]>
+            </line>
+            <line>
+              <![CDATA[$5.00]]>
+            </line>
+            <line>
+              <![CDATA[09:00 - 09:25]]>
+            </line>
+            <line>
+              <![CDATA[$4.00]]>
+            </line>
+            <line>
+              <![CDATA[09:25 - 09:30]]>
+            </line>
+            <line>
+              <![CDATA[$3.00]]>
+            </line>
+            <line>
+              <![CDATA[09:30 - 09:55]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[09:55 - 10:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[10:00 - 12:00]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[12:00 - 12:04]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[12:04 - 14:00]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[14:00 - 14:04]]>
+            </line>
+            <line>
+              <![CDATA[$3.00]]>
+            </line>
+            <line>
+              <![CDATA[14:04 - 14:55]]>
+            </line>
+            <line>
+              <![CDATA[$4.00]]>
+            </line>
+            <line>
+              <![CDATA[14:55 - 15:00]]>
+            </line>
+            <line>
+              <![CDATA[$3.00]]>
+            </line>
+            <line>
+              <![CDATA[15:00 - 17:30]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[17:30 - 18:00]]>
+            </line>
+            <line>
+              <![CDATA[$3.00]]>
+            </line>
+            <line>
+              <![CDATA[18:00 - 18:04]]>
+            </line>
+            <line>
+              <![CDATA[$4.60]]>
+            </line>
+            <line>
+              <![CDATA[18:04 - 18:25]]>
+            </line>
+            <line>
+              <![CDATA[$6.00]]>
+            </line>
+            <line>
+              <![CDATA[18:25 - 18:30]]>
+            </line>
+            <line>
+              <![CDATA[$5.00]]>
+            </line>
+            <line>
+              <![CDATA[18:30 - 18:55]]>
+            </line>
+            <line>
+              <![CDATA[$4.00]]>
+            </line>
+            <line>
+              <![CDATA[18:55 - 19:00]]>
+            </line>
+            <line>
+              <![CDATA[$3.00]]>
+            </line>
+            <line>
+              <![CDATA[19:00 - 19:55]]>
+            </line>
+            <line>
+              <![CDATA[$2.00]]>
+            </line>
+            <line>
+              <![CDATA[19:55 - 20:00]]>
+            </line>
+            <line>
+              <![CDATA[$1.00]]>
+            </line>
+            <line>
+              <![CDATA[20:00 - 22:30]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+            <line>
+              <![CDATA[22:30 - 23:59]]>
+            </line>
+            <line>
+              <![CDATA[$0.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetPriceAndRatesVeryHeavhVehicleWeekdays -->
+        <test-method status="PASS" signature="GetPriceAndRatesVeryHeavhVehicleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesVeryHeavhVehicleSaturday" duration-ms="100210" started-at="2017-08-24T18:20:32Z" description="Get Time and Toll Rates Very Heavh Vehicle (Saturday) of Singapore First Toll link" finished-at="2017-08-24T18:22:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Very Heavh Vehicle (Saturday)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetPriceAndRatesVeryHeavhVehicleSaturday -->
       </class> <!-- com.mapsynq.testclass.TestMapsynq -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

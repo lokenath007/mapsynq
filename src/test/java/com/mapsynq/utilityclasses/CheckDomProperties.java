@@ -1,7 +1,9 @@
 package com.mapsynq.utilityclasses;
 
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+
 
 public class CheckDomProperties
 {
@@ -30,4 +32,8 @@ public String checkPlaceHolder(String element){
 		
 	}
 
+
 }
+
+
+

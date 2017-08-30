@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="32" passed="32">
+<testng-results skipped="0" failed="0" total="33" passed="33">
   <reporter-output>
     <line>
-      <![CDATA[19:39
-Vehicle breakdown on PIE towards Tuas after Eng Neo Ave. Avoid lane 5.]]>
+      <![CDATA[19:08
+Heavy Traffic on SLE towards BKE at Woodlands Ave 12 Exit.]]>
     </line>
     <line>
-      <![CDATA[19:39
-Obstacle on Jalan Buroh towards City after Penjuru Road. Avoid left lane.]]>
+      <![CDATA[19:07
+Heavy Traffic on CTE towards AYE between PIE Jurong Exit and Balestier Rd Exit.]]>
     </line>
     <line>
-      <![CDATA[19:30
-Road Closure on Loke Yew Street near Hill Street Loke Yew Street Junction.]]>
+      <![CDATA[18:52
+Accident in CTE Tunnel towards SLE before Kramat Rd Entrance with congestion till Outram Rd Exit. Avoid lane 1.]]>
     </line>
     <line>
-      <![CDATA[19:30
-Road Closure on Armenian Street near Armenian Street Loke Yew Street Junction.]]>
+      <![CDATA[18:20
+Heavy Traffic on TPE towards SLE before Punggol Rd Exit.]]>
     </line>
     <line>
-      <![CDATA[19:30
-Road Closure on Armenian Street near Armenian Street Fort Canning Link Junction.]]>
+      <![CDATA[18:19
+Heavy Traffic on KPE towards TPE at TPE SLE Exit.]]>
+    </line>
+    <line>
+      <![CDATA[18:02
+Heavy Traffic on SLE towards CTE between Woodlands Ave 2 Exit and Mandai Ave Exit.]]>
+    </line>
+    <line>
+      <![CDATA[17:38
+Heavy Traffic on AYE towards Tuas between Clementi Rd Exit and Clementi Ave 6 Exit.]]>
+    </line>
+    <line>
+      <![CDATA[17:22
+Heavy Traffic on CTE towards SLE between Braddell Rd Exit and AMK Ave 3 Exit.]]>
+    </line>
+    <line>
+      <![CDATA[16:40
+Heavy Traffic on PIE towards Changi Airport at Lornie Rd Exit.]]>
+    </line>
+    <line>
+      <![CDATA[14:32
+Heavy Traffic on PIE towards Tuas between Paya Lebar Rd and KPE Exit.]]>
     </line>
     <line>
       <![CDATA[Adam Road (Towards Changi)
@@ -129,10 +149,10 @@ Wellawatta
 William Junction]]>
     </line>
     <line>
-      <![CDATA[507]]>
+      <![CDATA[524]]>
     </line>
     <line>
-      <![CDATA[405]]>
+      <![CDATA[419]]>
     </line>
     <line>
       <![CDATA[Anson Road]]>
@@ -1689,76 +1709,96 @@ William Junction]]>
       <![CDATA[Very Heavh Vehicle (Saturday)]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="675161" started-at="2017-08-24T12:40:57Z" finished-at="2017-08-24T12:52:12Z">
+  <suite name="Suite" duration-ms="737275" started-at="2017-08-30T11:13:44Z" finished-at="2017-08-30T11:26:01Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="675161" started-at="2017-08-24T12:40:57Z" finished-at="2017-08-24T12:52:12Z">
+    <test name="Test" duration-ms="737275" started-at="2017-08-30T11:13:44Z" finished-at="2017-08-30T11:26:01Z">
       <class name="com.mapsynq.testclass.TestMapsynq">
-        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="LaunchURL" duration-ms="7020" started-at="2017-08-24T18:10:57Z" description="Open a browser with http://www.mapsynq.com/ url" finished-at="2017-08-24T18:11:04Z">
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="LaunchURL" duration-ms="7610" started-at="2017-08-30T16:43:44Z" description="Open a browser with http://www.mapsynq.com/ url" finished-at="2017-08-30T16:43:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchURL -->
-        <test-method status="PASS" signature="clickDirectiontab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="clickDirectiontab" duration-ms="346" started-at="2017-08-24T18:11:04Z" description="Click Directions Tab " finished-at="2017-08-24T18:11:04Z">
+        <test-method status="PASS" signature="clickDirectiontab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="clickDirectiontab" duration-ms="530" started-at="2017-08-30T16:43:51Z" description="Click Directions Tab" finished-at="2017-08-30T16:43:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickDirectiontab -->
-        <test-method status="PASS" signature="testClearRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="testClearRoute" duration-ms="295" started-at="2017-08-24T18:11:04Z" description="Click Clear Route link under Directions Page" finished-at="2017-08-24T18:11:04Z">
+        <test-method status="PASS" signature="testClearRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="testClearRoute" duration-ms="441" started-at="2017-08-30T16:43:52Z" description="Click Clear Route link under Directions Page" finished-at="2017-08-30T16:43:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClearRoute -->
-        <test-method status="PASS" signature="testBlankSourceDesinationTraficAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="testBlankSourceDesinationTraficAwareRoute" duration-ms="5726" started-at="2017-08-24T18:11:04Z" description="Click Get Directions button with blank A and B fields under Directions Page" finished-at="2017-08-24T18:11:10Z">
+        <test-method status="PASS" signature="testBlankSourceDesinationTraficAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="testBlankSourceDesinationTraficAwareRoute" duration-ms="638" started-at="2017-08-30T16:43:52Z" description="Click Get Directions button with blank A and B fields under Directions Page" finished-at="2017-08-30T16:43:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBlankSourceDesinationTraficAwareRoute -->
-        <test-method status="PASS" signature="testTraficAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="testTraficAwareRoute" duration-ms="22322" started-at="2017-08-24T18:11:10Z" description="Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-24T18:11:32Z">
+        <test-method status="PASS" signature="testTraficAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="testTraficAwareRoute" duration-ms="23360" started-at="2017-08-30T16:43:53Z" description="Click Get Directions button for  Trafic Aware  Route with valid data in A and B fields under Directions Page" finished-at="2017-08-30T16:44:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTraficAwareRoute -->
-        <test-method status="PASS" signature="TestTollAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="TestTollAwareRoute" duration-ms="3633" started-at="2017-08-24T18:11:32Z" description="Uncheck Trafic Aware and Checked Toll Aware,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-24T18:11:36Z">
+        <test-method status="PASS" signature="testTollAwareRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="testTollAwareRoute" duration-ms="21210" started-at="2017-08-30T16:44:16Z" description="Uncheck Trafic Aware and Checked Toll Aware,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-30T16:44:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestTollAwareRoute -->
-        <test-method status="PASS" signature="TestFatestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="TestFatestRoute" duration-ms="699" started-at="2017-08-24T18:11:36Z" description="Uncheck Toll Aware and Checked Fatest,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-24T18:11:37Z">
+        </test-method> <!-- testTollAwareRoute -->
+        <test-method status="PASS" signature="testFatestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="testFatestRoute" duration-ms="21073" started-at="2017-08-30T16:44:38Z" description="Uncheck Toll Aware and Checked Fatest,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-30T16:44:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestFatestRoute -->
-        <test-method status="PASS" signature="TestShortestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="TestShortestRoute" duration-ms="201" started-at="2017-08-24T18:11:37Z" description="Uncheck Fatest and Checked Shortest,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-24T18:11:37Z">
+        </test-method> <!-- testFatestRoute -->
+        <test-method status="PASS" signature="testShortestRoute()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="testShortestRoute" duration-ms="20973" started-at="2017-08-30T16:44:59Z" description="Uncheck Fatest and Checked Shortest,then Click Get Directions button with valid data in A and B fields under Directions Page" finished-at="2017-08-30T16:45:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestShortestRoute -->
-        <test-method status="PASS" signature="ClickLiveTab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="ClickLiveTab" duration-ms="160" started-at="2017-08-24T18:11:37Z" description="Click Live Tab" finished-at="2017-08-24T18:11:37Z">
+        </test-method> <!-- testShortestRoute -->
+        <test-method status="PASS" signature="clickLiveTab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="clickLiveTab" duration-ms="331" started-at="2017-08-30T16:45:20Z" description="Click Live Tab" finished-at="2017-08-30T16:45:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickLiveTab -->
-        <test-method status="PASS" signature="CheckSingaporeLiveTrafficNews()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="CheckSingaporeLiveTrafficNews" duration-ms="352" started-at="2017-08-24T18:11:37Z" description="Check Singapore Live Traffic News" finished-at="2017-08-24T18:11:37Z">
+        </test-method> <!-- clickLiveTab -->
+        <test-method status="PASS" signature="checkSingaporeLiveTrafficNews()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="checkSingaporeLiveTrafficNews" duration-ms="291" started-at="2017-08-30T16:45:20Z" description="Check Singapore Live Traffic News" finished-at="2017-08-30T16:45:20Z">
           <reporter-output>
             <line>
-              <![CDATA[19:39
-Vehicle breakdown on PIE towards Tuas after Eng Neo Ave. Avoid lane 5.]]>
+              <![CDATA[19:08
+Heavy Traffic on SLE towards BKE at Woodlands Ave 12 Exit.]]>
             </line>
             <line>
-              <![CDATA[19:39
-Obstacle on Jalan Buroh towards City after Penjuru Road. Avoid left lane.]]>
+              <![CDATA[19:07
+Heavy Traffic on CTE towards AYE between PIE Jurong Exit and Balestier Rd Exit.]]>
             </line>
             <line>
-              <![CDATA[19:30
-Road Closure on Loke Yew Street near Hill Street Loke Yew Street Junction.]]>
+              <![CDATA[18:52
+Accident in CTE Tunnel towards SLE before Kramat Rd Entrance with congestion till Outram Rd Exit. Avoid lane 1.]]>
             </line>
             <line>
-              <![CDATA[19:30
-Road Closure on Armenian Street near Armenian Street Loke Yew Street Junction.]]>
+              <![CDATA[18:20
+Heavy Traffic on TPE towards SLE before Punggol Rd Exit.]]>
             </line>
             <line>
-              <![CDATA[19:30
-Road Closure on Armenian Street near Armenian Street Fort Canning Link Junction.]]>
+              <![CDATA[18:19
+Heavy Traffic on KPE towards TPE at TPE SLE Exit.]]>
+            </line>
+            <line>
+              <![CDATA[18:02
+Heavy Traffic on SLE towards CTE between Woodlands Ave 2 Exit and Mandai Ave Exit.]]>
+            </line>
+            <line>
+              <![CDATA[17:38
+Heavy Traffic on AYE towards Tuas between Clementi Rd Exit and Clementi Ave 6 Exit.]]>
+            </line>
+            <line>
+              <![CDATA[17:22
+Heavy Traffic on CTE towards SLE between Braddell Rd Exit and AMK Ave 3 Exit.]]>
+            </line>
+            <line>
+              <![CDATA[16:40
+Heavy Traffic on PIE towards Changi Airport at Lornie Rd Exit.]]>
+            </line>
+            <line>
+              <![CDATA[14:32
+Heavy Traffic on PIE towards Tuas between Paya Lebar Rd and KPE Exit.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CheckSingaporeLiveTrafficNews -->
-        <test-method status="PASS" signature="ClickCameraTab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="ClickCameraTab" duration-ms="210" started-at="2017-08-24T18:11:37Z" description="Click Camera Tab Under Live Page" finished-at="2017-08-24T18:11:38Z">
+        </test-method> <!-- checkSingaporeLiveTrafficNews -->
+        <test-method status="PASS" signature="clickCameraTab()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="clickCameraTab" duration-ms="289" started-at="2017-08-30T16:45:20Z" description="Click Camera Tab Under Live Page" finished-at="2017-08-30T16:45:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickCameraTab -->
-        <test-method status="PASS" signature="SingaporeLiveTrafficCameras()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="SingaporeLiveTrafficCameras" duration-ms="176" started-at="2017-08-24T18:11:38Z" description="Check Singapore Live Traffic Cameras" finished-at="2017-08-24T18:11:38Z">
+        </test-method> <!-- clickCameraTab -->
+        <test-method status="PASS" signature="singaporeLiveTrafficCameras()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="singaporeLiveTrafficCameras" duration-ms="328" started-at="2017-08-30T16:45:21Z" description="Check Singapore Live Traffic Cameras" finished-at="2017-08-30T16:45:21Z">
           <reporter-output>
             <line>
               <![CDATA[Adam Road (Towards Changi)
@@ -1825,8 +1865,8 @@ Woodsville Flyover (Towards Changi)
 Yio Chu Kang Flyover]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SingaporeLiveTrafficCameras -->
-        <test-method status="PASS" signature="MalaysiaLiveTrafficCameras()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="MalaysiaLiveTrafficCameras" duration-ms="131" started-at="2017-08-24T18:11:38Z" description="Check Malaysia Live Traffic Cameras" finished-at="2017-08-24T18:11:38Z">
+        </test-method> <!-- singaporeLiveTrafficCameras -->
+        <test-method status="PASS" signature="malaysiaLiveTrafficCameras()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="malaysiaLiveTrafficCameras" duration-ms="200" started-at="2017-08-30T16:45:21Z" description="Check Malaysia Live Traffic Cameras" finished-at="2017-08-30T16:45:21Z">
           <reporter-output>
             <line>
               <![CDATA[Bangunan DBKL
@@ -1856,8 +1896,8 @@ Taman Midah
 uta Vista]]>
             </line>
           </reporter-output>
-        </test-method> <!-- MalaysiaLiveTrafficCameras -->
-        <test-method status="PASS" signature="SrilankaLiveTrafficCameras()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="SrilankaLiveTrafficCameras" duration-ms="129" started-at="2017-08-24T18:11:38Z" description="Check Srilanka Live Traffic Cameras" finished-at="2017-08-24T18:11:38Z">
+        </test-method> <!-- malaysiaLiveTrafficCameras -->
+        <test-method status="PASS" signature="srilankaLiveTrafficCameras()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="srilankaLiveTrafficCameras" duration-ms="161" started-at="2017-08-30T16:45:21Z" description="Check Srilanka Live Traffic Cameras" finished-at="2017-08-30T16:45:21Z">
           <reporter-output>
             <line>
               <![CDATA[Ayurveda Junction
@@ -1876,26 +1916,26 @@ Wellawatta
 William Junction]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SrilankaLiveTrafficCameras -->
-        <test-method status="PASS" signature="TestCountTotalLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="TestCountTotalLink" duration-ms="184" started-at="2017-08-24T18:11:38Z" description="Test Count of links and images" finished-at="2017-08-24T18:11:38Z">
+        </test-method> <!-- srilankaLiveTrafficCameras -->
+        <test-method status="PASS" signature="testCountTotalLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="testCountTotalLink" duration-ms="219" started-at="2017-08-30T16:45:21Z" description="Test Count of links and images" finished-at="2017-08-30T16:45:22Z">
           <reporter-output>
             <line>
-              <![CDATA[507]]>
+              <![CDATA[524]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TestCountTotalLink -->
-        <test-method status="PASS" signature="TestCountInvalidLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="TestCountInvalidLink" duration-ms="18382" started-at="2017-08-24T18:11:38Z" description="Test Count of invalid links and images" finished-at="2017-08-24T18:11:57Z">
+        </test-method> <!-- testCountTotalLink -->
+        <test-method status="PASS" signature="testCountInvalidLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="testCountInvalidLink" duration-ms="25218" started-at="2017-08-30T16:45:22Z" description="Test Count of invalid links and images" finished-at="2017-08-30T16:45:47Z">
           <reporter-output>
             <line>
-              <![CDATA[405]]>
+              <![CDATA[419]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TestCountInvalidLink -->
-        <test-method status="PASS" signature="ClickTollsLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="ClickTollsLink" duration-ms="140" started-at="2017-08-24T18:11:57Z" description="Click Tolls Tab" finished-at="2017-08-24T18:11:57Z">
+        </test-method> <!-- testCountInvalidLink -->
+        <test-method status="PASS" signature="clickTollsLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="clickTollsLink" duration-ms="233" started-at="2017-08-30T16:45:47Z" description="Click Tolls Tab" finished-at="2017-08-30T16:45:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickTollsLink -->
-        <test-method status="PASS" signature="CheckSingaporeTolls()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="CheckSingaporeTolls" duration-ms="837" started-at="2017-08-24T18:11:57Z" description="Check Singapore Tolls" finished-at="2017-08-24T18:11:58Z">
+        </test-method> <!-- clickTollsLink -->
+        <test-method status="PASS" signature="checkSingaporeTolls()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="checkSingaporeTolls" duration-ms="1689" started-at="2017-08-30T16:45:47Z" description="Verify Singapore Tolls" finished-at="2017-08-30T16:45:49Z">
           <reporter-output>
             <line>
               <![CDATA[Anson Road]]>
@@ -2129,8 +2169,8 @@ William Junction]]>
               <![CDATA[Woodsville Tunnel]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CheckSingaporeTolls -->
-        <test-method status="PASS" signature="CheckMalaysiaTolls()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="CheckMalaysiaTolls" duration-ms="647" started-at="2017-08-24T18:11:58Z" description="Check Malaysia Tolls" finished-at="2017-08-24T18:11:58Z">
+        </test-method> <!-- checkSingaporeTolls -->
+        <test-method status="PASS" signature="checkMalaysiaTolls()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="checkMalaysiaTolls" duration-ms="1260" started-at="2017-08-30T16:45:49Z" description="Verify Malaysia Tolls" finished-at="2017-08-30T16:45:50Z">
           <reporter-output>
             <line>
               <![CDATA[Alam Impian]]>
@@ -2322,8 +2362,8 @@ William Junction]]>
               <![CDATA[Toll Kempas]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CheckMalaysiaTolls -->
-        <test-method status="PASS" signature="CheckThialndTolls()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="CheckThialndTolls" duration-ms="1142" started-at="2017-08-24T18:11:58Z" description="Check Thiland Tolls" finished-at="2017-08-24T18:11:59Z">
+        </test-method> <!-- checkMalaysiaTolls -->
+        <test-method status="PASS" signature="checkThialndTolls()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="checkThialndTolls" duration-ms="2393" started-at="2017-08-30T16:45:50Z" description="Verify Thiland Tolls" finished-at="2017-08-30T16:45:52Z">
           <reporter-output>
             <line>
               <![CDATA[ANUSON SATHAN 1/1 (DON MUEANG TOLL WAY)]]>
@@ -2650,16 +2690,16 @@ William Junction]]>
               <![CDATA[YOTHIN PHATTHANA TOLL GATE]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CheckThialndTolls -->
-        <test-method status="PASS" signature="ClickFirstSignaporeTollLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="ClickFirstSignaporeTollLink" duration-ms="937" started-at="2017-08-24T18:11:59Z" description="Click First Singapore Toll Link" finished-at="2017-08-24T18:12:00Z">
+        </test-method> <!-- checkThialndTolls -->
+        <test-method status="PASS" signature="clickFirstSignaporeTollLink()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="clickFirstSignaporeTollLink" duration-ms="480" started-at="2017-08-30T16:45:52Z" description="Click First Singapore Toll Link" finished-at="2017-08-30T16:45:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickFirstSignaporeTollLink -->
-        <test-method status="PASS" signature="SwitchToPriceListDropdown()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="SwitchToPriceListDropdown" duration-ms="100169" started-at="2017-08-24T18:12:00Z" description="Switch To Price List Dropdown" finished-at="2017-08-24T18:13:41Z">
+        </test-method> <!-- clickFirstSignaporeTollLink -->
+        <test-method status="PASS" signature="switchToPriceListDropdown()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="switchToPriceListDropdown" duration-ms="100141" started-at="2017-08-30T16:45:53Z" description="Switch To Price List Dropdown" finished-at="2017-08-30T16:47:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SwitchToPriceListDropdown -->
-        <test-method status="PASS" signature="GetPriceAndRatesLargeVehicleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesLargeVehicleWeekdays" duration-ms="2241" started-at="2017-08-24T18:13:41Z" description="Get Time and Toll Rates Large Vehicle (Weekdays) of Singapore First Toll link " finished-at="2017-08-24T18:13:43Z">
+        </test-method> <!-- switchToPriceListDropdown -->
+        <test-method status="PASS" signature="getPriceAndRatesLargeVehicleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="getPriceAndRatesLargeVehicleWeekdays" duration-ms="1150" started-at="2017-08-30T16:47:33Z" description="Verify Time and Toll Rates Large Vehicle (Weekdays) of Singapore First Toll link " finished-at="2017-08-30T16:47:34Z">
           <reporter-output>
             <line>
               <![CDATA[Large Vehicle (Weekdays)]]>
@@ -2821,15 +2861,15 @@ William Junction]]>
               <![CDATA[$0.00]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetPriceAndRatesLargeVehicleWeekdays -->
-        <test-method status="PASS" signature="GetPriceAndRatesCarSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesCarSaturday" duration-ms="100153" started-at="2017-08-24T18:13:43Z" description="Get Time and Toll Rates Car (Saturday) of Singapore First Toll link" finished-at="2017-08-24T18:15:23Z">
+        </test-method> <!-- getPriceAndRatesLargeVehicleWeekdays -->
+        <test-method status="PASS" signature="getPriceAndRatesCarSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="getPriceAndRatesCarSaturday" duration-ms="100301" started-at="2017-08-30T16:47:34Z" description="Verify Time and Toll Rates Car (Saturday) of Singapore First Toll link" finished-at="2017-08-30T16:49:14Z">
           <reporter-output>
             <line>
               <![CDATA[Car (Saturday)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetPriceAndRatesCarSaturday -->
-        <test-method status="PASS" signature="GetPriceAndRatesMotorCycleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesMotorCycleWeekdays" duration-ms="1945" started-at="2017-08-24T18:15:23Z" description="Get Time and Toll Rates MotorCycle (Weekdays) of Singapore First Toll link" finished-at="2017-08-24T18:15:25Z">
+        </test-method> <!-- getPriceAndRatesCarSaturday -->
+        <test-method status="PASS" signature="getPriceAndRatesMotorCycleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="getPriceAndRatesMotorCycleWeekdays" duration-ms="1128" started-at="2017-08-30T16:49:14Z" description="Verify Time and Toll Rates MotorCycle (Weekdays) of Singapore First Toll link" finished-at="2017-08-30T16:49:15Z">
           <reporter-output>
             <line>
               <![CDATA[Motorcycle (Weekdays)]]>
@@ -2991,15 +3031,15 @@ William Junction]]>
               <![CDATA[$0.00]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetPriceAndRatesMotorCycleWeekdays -->
-        <test-method status="PASS" signature="GetPriceAndRatesMotorCycleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesMotorCycleSaturday" duration-ms="100141" started-at="2017-08-24T18:15:25Z" description="Get Time and Toll Rates MotorCycle (Saturday) of Singapore First Toll link" finished-at="2017-08-24T18:17:05Z">
+        </test-method> <!-- getPriceAndRatesMotorCycleWeekdays -->
+        <test-method status="PASS" signature="getPriceAndRatesMotorCycleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="getPriceAndRatesMotorCycleSaturday" duration-ms="100286" started-at="2017-08-30T16:49:15Z" description="Verify Time and Toll Rates MotorCycle (Saturday) of Singapore First Toll link" finished-at="2017-08-30T16:50:56Z">
           <reporter-output>
             <line>
               <![CDATA[Motorcycle (Saturday)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetPriceAndRatesMotorCycleSaturday -->
-        <test-method status="PASS" signature="GetPriceAndRatesCarWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesCarWeekdays" duration-ms="1823" started-at="2017-08-24T18:17:05Z" description="Get Time and Toll Rates Car (Weekdays) of Singapore First Toll link" finished-at="2017-08-24T18:17:07Z">
+        </test-method> <!-- getPriceAndRatesMotorCycleSaturday -->
+        <test-method status="PASS" signature="getPriceAndRatesCarWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="getPriceAndRatesCarWeekdays" duration-ms="1055" started-at="2017-08-30T16:50:56Z" description="Verify Time and Toll Rates Car (Weekdays) of Singapore First Toll link" finished-at="2017-08-30T16:50:57Z">
           <reporter-output>
             <line>
               <![CDATA[Car (Weekdays)]]>
@@ -3161,15 +3201,15 @@ William Junction]]>
               <![CDATA[$0.00]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetPriceAndRatesCarWeekdays -->
-        <test-method status="PASS" signature="GetPriceAndRatesLargeVehicleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesLargeVehicleSaturday" duration-ms="100267" started-at="2017-08-24T18:17:07Z" description="Get Time and Toll Rates Large Vehicle (Saturday) of Singapore First Toll link" finished-at="2017-08-24T18:18:47Z">
+        </test-method> <!-- getPriceAndRatesCarWeekdays -->
+        <test-method status="PASS" signature="getPriceAndRatesLargeVehicleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="getPriceAndRatesLargeVehicleSaturday" duration-ms="100289" started-at="2017-08-30T16:50:57Z" description="Verify Time and Toll Rates Large Vehicle (Saturday) of Singapore First Toll link" finished-at="2017-08-30T16:52:37Z">
           <reporter-output>
             <line>
               <![CDATA[Large Vehicle (Saturday)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetPriceAndRatesLargeVehicleSaturday -->
-        <test-method status="PASS" signature="GetPriceAndRatesHeavyVehicleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesHeavyVehicleWeekdays" duration-ms="2031" started-at="2017-08-24T18:18:47Z" description="Get Time and Toll Rates Heavy Vehicle (Weekdays) of Singapore First Toll link" finished-at="2017-08-24T18:18:49Z">
+        </test-method> <!-- getPriceAndRatesLargeVehicleSaturday -->
+        <test-method status="PASS" signature="getPriceAndRatesHeavyVehicleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="getPriceAndRatesHeavyVehicleWeekdays" duration-ms="1713" started-at="2017-08-30T16:52:37Z" description="Verify Time and Toll Rates Heavy Vehicle (Weekdays) of Singapore First Toll link" finished-at="2017-08-30T16:52:39Z">
           <reporter-output>
             <line>
               <![CDATA[Heavy Vehicle (Weekdays)]]>
@@ -3331,15 +3371,15 @@ William Junction]]>
               <![CDATA[$0.00]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetPriceAndRatesHeavyVehicleWeekdays -->
-        <test-method status="PASS" signature="GetPriceAndRatesHeavyVehicleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesHeavyVehicleSaturday" duration-ms="100202" started-at="2017-08-24T18:18:49Z" description="Get Time and Toll Rates Heavy Vehicle (Saturday) of Singapore First Toll link" finished-at="2017-08-24T18:20:29Z">
+        </test-method> <!-- getPriceAndRatesHeavyVehicleWeekdays -->
+        <test-method status="PASS" signature="getPriceAndRatesHeavyVehicleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="getPriceAndRatesHeavyVehicleSaturday" duration-ms="100305" started-at="2017-08-30T16:52:39Z" description="Verify Time and Toll Rates Heavy Vehicle (Saturday) of Singapore First Toll link" finished-at="2017-08-30T16:54:19Z">
           <reporter-output>
             <line>
               <![CDATA[Heavy Vehicle (Saturday)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetPriceAndRatesHeavyVehicleSaturday -->
-        <test-method status="PASS" signature="GetPriceAndRatesVeryHeavhVehicleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesVeryHeavhVehicleWeekdays" duration-ms="2267" started-at="2017-08-24T18:20:29Z" description="Get Time and Toll Rates Very Heavh Vehicle (Weekdays) of Singapore First Toll link" finished-at="2017-08-24T18:20:32Z">
+        </test-method> <!-- getPriceAndRatesHeavyVehicleSaturday -->
+        <test-method status="PASS" signature="getPriceAndRatesVeryHeavhVehicleWeekdays()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="getPriceAndRatesVeryHeavhVehicleWeekdays" duration-ms="1342" started-at="2017-08-30T16:54:19Z" description="Verify Time and Toll Rates Very Heavh Vehicle (Weekdays) of Singapore First Toll link" finished-at="2017-08-30T16:54:20Z">
           <reporter-output>
             <line>
               <![CDATA[Very Heavh Vehicle (Weekdays)]]>
@@ -3501,14 +3541,18 @@ William Junction]]>
               <![CDATA[$0.00]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetPriceAndRatesVeryHeavhVehicleWeekdays -->
-        <test-method status="PASS" signature="GetPriceAndRatesVeryHeavhVehicleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@3b81a1bc]" name="GetPriceAndRatesVeryHeavhVehicleSaturday" duration-ms="100210" started-at="2017-08-24T18:20:32Z" description="Get Time and Toll Rates Very Heavh Vehicle (Saturday) of Singapore First Toll link" finished-at="2017-08-24T18:22:12Z">
+        </test-method> <!-- getPriceAndRatesVeryHeavhVehicleWeekdays -->
+        <test-method status="PASS" signature="getPriceAndRatesVeryHeavhVehicleSaturday()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="getPriceAndRatesVeryHeavhVehicleSaturday" duration-ms="100315" started-at="2017-08-30T16:54:20Z" description="Verify Time and Toll Rates Very Heavh Vehicle (Saturday) of Singapore First Toll link" finished-at="2017-08-30T16:56:01Z">
           <reporter-output>
             <line>
               <![CDATA[Very Heavh Vehicle (Saturday)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- GetPriceAndRatesVeryHeavhVehicleSaturday -->
+        </test-method> <!-- getPriceAndRatesVeryHeavhVehicleSaturday -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mapsynq.testclass.TestMapsynq@180bc464]" name="closeBrowser" duration-ms="299" started-at="2017-08-30T16:56:01Z" description="Close Browser" finished-at="2017-08-30T16:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- com.mapsynq.testclass.TestMapsynq -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

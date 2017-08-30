@@ -445,12 +445,14 @@ public class Live
 
 	public void SwitchToTollPriceFrame()
 	{
-	try{
-		driver.switchTo().frame("myDropdownList");
-	}
-	catch (NoSuchFrameException e) {
-		System.out.println("Unable to locate frame with id " + e.getStackTrace());
+		try
+		{
+			driver.switchTo().frame("myDropdownList");
+		}
+		catch (NoSuchFrameException e)
+		{
+			System.out.println("Unable to locate frame with id " + e.getStackTrace());
 
-}
-}
+		}
+	}
 }

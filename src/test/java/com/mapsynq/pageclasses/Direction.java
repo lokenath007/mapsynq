@@ -1,6 +1,9 @@
 package com.mapsynq.pageclasses;
 
+import javax.naming.directory.NoSuchAttributeException;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -22,7 +25,7 @@ public class Direction
 	private String traficShortestShowElement = "document.getElementById('divShortestRouteShow')";
 	private String traficTollAwreShowElement = "document.getElementById('divErpRouteShow')";
 	private String clearRouteElement = "document.getElementById('btnClear')";
-	
+
 	private WebDriver driver;
 
 	public Direction(
@@ -69,7 +72,16 @@ public class Direction
 
 	public void clickDirectionButton()
 	{
-		driver.findElement(getDirections).click();
+		try
+		{
+			driver.findElement(getDirections).click();
+		}
+		catch (NoSuchElementException e)
+		{
+
+			e.printStackTrace();
+
+		}
 	}
 
 	public void getDirectionFromSourceToDestination(String source, String destination) throws InterruptedException
@@ -80,22 +92,61 @@ public class Direction
 
 	public void clickTraficCheckbox()
 	{
-		driver.findElement(chkBoxTrafic).click();
+		try
+		{
+			driver.findElement(chkBoxTrafic).click();
+		}
+		catch (NoSuchElementException e)
+		{
+
+			e.printStackTrace();
+
+		}
 	}
 
 	public void clickTollAwareCheckbox()
 	{
-		driver.findElement(chkBoxTollAware).click();
+		try
+		{
+			driver.findElement(chkBoxTollAware).click();
+		}
+
+		catch (NoSuchElementException e)
+		{
+
+			e.printStackTrace();
+
+		}
 	}
 
 	public void clickFatestCheckbox()
 	{
-		driver.findElement(chkBoxFatest).click();
+		try
+		{
+			driver.findElement(chkBoxFatest).click();
+		}
+
+		catch (NoSuchElementException e)
+		{
+
+			e.printStackTrace();
+
+		}
 	}
 
 	public void clickShortestCheckbox()
 	{
-		driver.findElement(chkBoxShortest).click();
+		try
+		{
+			driver.findElement(chkBoxShortest).click();
+		}
+
+		catch (NoSuchElementException e)
+		{
+
+			e.printStackTrace();
+
+		}
 	}
 
 	public String getTraficRoute()

@@ -13,23 +13,28 @@ import org.openqa.selenium.WebElement;
 public class CheckBrokenLink
 {
 	private int invalidLinksCount;
-	private int totallink=0;
+	private int totallink = 0;
 	private WebDriver driver;
-	public CheckBrokenLink(WebDriver driver){
+
+	public CheckBrokenLink(
+			WebDriver driver)
+	{
 
 		this.driver = driver;
 
 	}
 
-	public String countLinks() {
-		try {
+	public String countLinks()
+	{
+		try
+		{
 
-			List<WebElement> anchorTagsList = driver.findElements(By
-					.tagName("a"));
-			anchorTagsList.addAll(driver.findElements(By
-					.tagName("img")));
-			totallink=anchorTagsList.size();
-		}catch (Exception e) {
+			List<WebElement> anchorTagsList = driver.findElements(By.tagName("a"));
+			anchorTagsList.addAll(driver.findElements(By.tagName("img")));
+			totallink = anchorTagsList.size();
+		}
+		catch (Exception e)
+		{
 			e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
@@ -37,43 +42,56 @@ public class CheckBrokenLink
 
 	}
 
-	public String countInvalidLinks() {
+	public String countInvalidLinks()
+	{
 
-		try {
+		try
+		{
 			invalidLinksCount = 0;
-			List<WebElement> anchorTagsList = driver.findElements(By
-					.tagName("a"));
-			for (WebElement anchorTagElement : anchorTagsList) {
-				if (anchorTagElement != null) {
+			List<WebElement> anchorTagsList = driver.findElements(By.tagName("a"));
+			for (WebElement anchorTagElement : anchorTagsList)
+			{
+				if (anchorTagElement != null)
+				{
 					String url = anchorTagElement.getAttribute("href");
-					if (url != null && !url.contains("javascript")) {
-						//System.out.print(url);
+					if (url != null && !url.contains("javascript"))
+					{
+						// System.out.print(url);
 						verifyURLStatus(url);
-					} else {
+					}
+					else
+					{
 						invalidLinksCount++;
 					}
 				}
 			}
 
-		} catch (Exception e) {
+		}
+		catch (Exception e)
+		{
 			e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
 		return Integer.toString(invalidLinksCount);
 	}
 
-	public void verifyURLStatus(String URL) {
+	public void verifyURLStatus(String URL)
+	{
 
 		HttpClient client = HttpClientBuilder.create().build();
 		HttpGet request = new HttpGet(URL);
-		try {
+		try
+		{
 			HttpResponse response = client.execute(request);
 			// verifying response code and The HttpStatus should be 200 if not,
 			// increment invalid link count
-			////We can also check for 404 status code like response.getStatusLine().getStatusCode() == 404
+			//// We can also check for 404 status code like
+			// response.getStatusLine().getStatusCode() == 404
 			if (response.getStatusLine().getStatusCode() != 200)
 				invalidLinksCount++;
-		} catch (Exception e) {
+		}
+		catch (Exception e)
+		{
 			e.printStackTrace();
 		}
 	}

@@ -13,6 +13,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Listeners;
@@ -98,7 +100,7 @@ public class TestMapsynq
 
 	}
 
-	@Test(priority = 1, description = "Click Directions Tab ")
+	@Test(priority = 1, description = "Click Directions Tab")
 	public void clickDirectiontab()
 	{
 		direction = new Direction(driver);
@@ -122,11 +124,16 @@ public class TestMapsynq
 	{
 		direction.clickRouteClear();
 		direction.clickDirectionButton();
-		alrthandle.acceptAlert();
+		// alrthandle.acceptAlert();
+
+		WebDriverWait alertWait = new WebDriverWait(driver, 20);
+		alertWait.until(ExpectedConditions.alertIsPresent());
+		// alrthandle.handleAlert();
+		alrthandle.checkAlert();
 
 	}
 
-	@Test(priority = 4, description = "Click Get Directions button with valid data in A and B fields under Directions Page")
+	@Test(priority = 4, description = "Click Get Directions button for  Trafic Aware  Route with valid data in A and B fields under Directions Page")
 	public void testTraficAwareRoute() throws FileNotFoundException, JSONException, InterruptedException
 
 	{
@@ -135,55 +142,68 @@ public class TestMapsynq
 		// direction.setDestination(getjsontestdata.getData("validdestination"));
 		direction.setSourceDestination(getjsontestdata.getData("validsource"), getjsontestdata.getData("validdestination"));
 		direction.clickDirectionButton();
-
 		Assert.assertEquals(chckdomprop.checkInnerText(direction.getTraficRoute()), "Click here to see traffic aware route");
+
+		/*
+		 * WebDriverWait alertWait = new WebDriverWait(driver, 20);
+		 * alertWait.until(ExpectedConditions.alertIsPresent());
+		 * if(alrthandle.isAlertPresent()) { alrthandle.handleAlert(); }
+		 */
+
+		alrthandle.checkAlert();
 
 	}
 
 	@Test(priority = 5, description = "Uncheck Trafic Aware and Checked Toll Aware,then Click Get Directions button with valid data in A and B fields under Directions Page")
-	public void TestTollAwareRoute() throws InterruptedException
+	public void testTollAwareRoute() throws InterruptedException
 
 	{
 		direction.clickTraficCheckbox();
 		direction.clickTollAwareCheckbox();
 		direction.clickDirectionButton();
 		Assert.assertEquals(chckdomprop.checkInnerText(direction.getTollAwareRoute()), "Click here to see toll aware route");
+		WebDriverWait alertWait = new WebDriverWait(driver, 20);
+		/*
+		 * alertWait.until(ExpectedConditions.alertIsPresent());
+		 * if(alrthandle.isAlertPresent()) { alrthandle.handleAlert(); }
+		 */
+		alrthandle.checkAlert();
 
 	}
 
 	@Test(priority = 6, description = "Uncheck Toll Aware and Checked Fatest,then Click Get Directions button with valid data in A and B fields under Directions Page")
-	public void TestFatestRoute()
+	public void testFatestRoute() throws InterruptedException
 
 	{
 		direction.clickTollAwareCheckbox();
 		direction.clickFatestCheckbox();
 		direction.clickDirectionButton();
 		Assert.assertEquals(chckdomprop.checkInnerText(direction.getFatestRoute()), "Click here to see fastest route");
+		alrthandle.checkAlert();
 
 	}
 
 	@Test(priority = 7, description = "Uncheck Fatest and Checked Shortest,then Click Get Directions button with valid data in A and B fields under Directions Page")
-	public void TestShortestRoute()
+	public void testShortestRoute()
 
 	{
 		direction.clickFatestCheckbox();
 		direction.clickShortestCheckbox();
 		direction.clickDirectionButton();
 		Assert.assertEquals(chckdomprop.checkInnerText(direction.getShortestRoute()), "Click here to see shortest route");
+		alrthandle.checkAlert();
 	}
 
 	@Test(priority = 8, description = "Click Live Tab")
-	public void ClickLiveTab()
+	public void clickLiveTab()
 
 	{
 		direction.clickLiveTab();
 		Assert.assertEquals(chckdomprop.checkPlaceHolder(live.getPlaceHolder()), "Search incident location");
-		// Thread.sleep(10000);
-
 	}
 
 	@Test(priority = 9, description = "Check Singapore Live Traffic News")
-	public void CheckSingaporeLiveTrafficNews()
+	public void checkSingaporeLiveTrafficNews()
 
 	{
 		for (WebElement el : live.getSingaporeLiveTrafficNews())
@@ -194,7 +214,7 @@ public class TestMapsynq
 	}
 
 	@Test(priority = 10, description = "Click Camera Tab Under Live Page")
-	public void ClickCameraTab()
+	public void clickCameraTab()
 
 	{
 
@@ -203,7 +223,7 @@ public class TestMapsynq
 	}
 
 	@Test(priority = 11, description = "Check Singapore Live Traffic Cameras")
-	public void SingaporeLiveTrafficCameras()
+	public void singaporeLiveTrafficCameras()
 
 	{
 
@@ -214,7 +234,7 @@ public class TestMapsynq
 	}
 
 	@Test(priority = 12, description = "Check Malaysia Live Traffic Cameras")
-	public void MalaysiaLiveTrafficCameras()
+	public void malaysiaLiveTrafficCameras()
 
 	{
 
@@ -225,7 +245,7 @@ public class TestMapsynq
 	}
 
 	@Test(priority = 13, description = "Check Srilanka Live Traffic Cameras")
-	public void SrilankaLiveTrafficCameras()
+	public void srilankaLiveTrafficCameras()
 
 	{
 		for (WebElement el1 : live.getSrilankaLiveTrafficCameras())
@@ -235,7 +255,7 @@ public class TestMapsynq
 	}
 
 	@Test(priority = 14, description = "Test Count of links and images")
-	public void TestCountTotalLink()
+	public void testCountTotalLink()
 
 	{
 		chkbrkenlnk = new CheckBrokenLink(driver);
@@ -244,37 +264,37 @@ public class TestMapsynq
 	}
 
 	@Test(priority = 15, description = "Test Count of invalid links and images")
-	public void TestCountInvalidLink()
+	public void testCountInvalidLink()
 
 	{
 		Reporter.log(chkbrkenlnk.countInvalidLinks(), true);
 	}
 
 	@Test(priority = 16, description = "Click Tolls Tab")
-	public void ClickTollsLink()
+	public void clickTollsLink()
 
 	{
 		live.clickTollsTab();
 		Assert.assertEquals(chckdomprop.checkPlaceHolder(live.getPlaceHolderforTolls()), "Search gantry location");
 	}
 
-	@Test(priority = 17, description = "Check Singapore Tolls")
-	public void CheckSingaporeTolls()
+	@Test(priority = 17, description = "Verify Singapore Tolls")
+	public void checkSingaporeTolls()
 
 	{
 
 		live.getSingaporeTolls();
 	}
 
-	@Test(priority = 18, description = "Check Malaysia Tolls")
-	public void CheckMalaysiaTolls()
+	@Test(priority = 18, description = "Verify Malaysia Tolls")
+	public void checkMalaysiaTolls()
 	{
 
 		live.getMalaysiaTolls();
 	}
 
-	@Test(priority = 19, description = "Check Thiland Tolls")
-	public void CheckThialndTolls()
+	@Test(priority = 19, description = "Verify Thiland Tolls")
+	public void checkThialndTolls()
 
 	{
 		live.getThilandTolls();
@@ -282,7 +302,7 @@ public class TestMapsynq
 	}
 
 	@Test(priority = 20, description = "Click First Singapore Toll Link")
-	public void ClickFirstSignaporeTollLink()
+	public void clickFirstSignaporeTollLink()
 
 	{
 		live.clickFirstLinkOfSingaporeToll();
@@ -290,22 +310,22 @@ public class TestMapsynq
 	}
 
 	@Test(priority = 21, description = "Switch To Price List Dropdown")
-	public void SwitchToPriceListDropdown() throws InterruptedException
+	public void switchToPriceListDropdown() throws InterruptedException
 
 	{
 
 		live.SwitchToTollPriceFrame();
 	}
 
-	@Test(priority = 22, description = "Get Time and Toll Rates Large Vehicle (Weekdays) of Singapore First Toll link ")
-	public void GetPriceAndRatesLargeVehicleWeekdays()
+	@Test(priority = 22, description = "Verify Time and Toll Rates Large Vehicle (Weekdays) of Singapore First Toll link ")
+	public void getPriceAndRatesLargeVehicleWeekdays()
 
 	{
 		live.getTimeAndRatesLargeVechileWeekdays();
 	}
 
-	@Test(priority = 23, description = "Get Time and Toll Rates Car (Saturday) of Singapore First Toll link")
-	public void GetPriceAndRatesCarSaturday()
+	@Test(priority = 23, description = "Verify Time and Toll Rates Car (Saturday) of Singapore First Toll link")
+	public void getPriceAndRatesCarSaturday()
 
 	{
 
@@ -313,59 +333,66 @@ public class TestMapsynq
 
 	}
 
-	@Test(priority = 24, description = "Get Time and Toll Rates MotorCycle (Weekdays) of Singapore First Toll link")
-	public void GetPriceAndRatesMotorCycleWeekdays()
+	@Test(priority = 24, description = "Verify Time and Toll Rates MotorCycle (Weekdays) of Singapore First Toll link")
+	public void getPriceAndRatesMotorCycleWeekdays()
 
 	{
 		live.getTimeAndRatesMotorCycleWeekdays();
 	}
 
-	@Test(priority = 25, description = "Get Time and Toll Rates MotorCycle (Saturday) of Singapore First Toll link")
-	public void GetPriceAndRatesMotorCycleSaturday()
+	@Test(priority = 25, description = "Verify Time and Toll Rates MotorCycle (Saturday) of Singapore First Toll link")
+	public void getPriceAndRatesMotorCycleSaturday()
 
 	{
 		live.getTimeAndRatesMotorCycleSaturday();
 	}
 
-	@Test(priority = 26, description = "Get Time and Toll Rates Car (Weekdays) of Singapore First Toll link")
-	public void GetPriceAndRatesCarWeekdays()
+	@Test(priority = 26, description = "Verify Time and Toll Rates Car (Weekdays) of Singapore First Toll link")
+	public void getPriceAndRatesCarWeekdays()
 
 	{
 		live.getTimeAndRatesCarWeekdays();
 	}
 
-	@Test(priority = 27, description = "Get Time and Toll Rates Large Vehicle (Saturday) of Singapore First Toll link")
-	public void GetPriceAndRatesLargeVehicleSaturday()
+	@Test(priority = 27, description = "Verify Time and Toll Rates Large Vehicle (Saturday) of Singapore First Toll link")
+	public void getPriceAndRatesLargeVehicleSaturday()
 
 	{
 		live.getTimeAndRatesLargeVehicleSaturday();
 	}
 
-	@Test(priority = 28, description = "Get Time and Toll Rates Heavy Vehicle (Weekdays) of Singapore First Toll link")
-	public void GetPriceAndRatesHeavyVehicleWeekdays()
+	@Test(priority = 28, description = "Verify Time and Toll Rates Heavy Vehicle (Weekdays) of Singapore First Toll link")
+	public void getPriceAndRatesHeavyVehicleWeekdays()
 
 	{
 		live.getTimeAndRatesHeavyVehicleWeekdays();
 	}
 
-	@Test(priority = 29, description = "Get Time and Toll Rates Heavy Vehicle (Saturday) of Singapore First Toll link")
-	public void GetPriceAndRatesHeavyVehicleSaturday()
+	@Test(priority = 29, description = "Verify Time and Toll Rates Heavy Vehicle (Saturday) of Singapore First Toll link")
+	public void getPriceAndRatesHeavyVehicleSaturday()
 
 	{
 		live.getTimeAndRatesHeavyVehicleSaturday();
 	}
 
-	@Test(priority = 30, description = "Get Time and Toll Rates Very Heavh Vehicle (Weekdays) of Singapore First Toll link")
-	public void GetPriceAndRatesVeryHeavhVehicleWeekdays()
+	@Test(priority = 30, description = "Verify Time and Toll Rates Very Heavh Vehicle (Weekdays) of Singapore First Toll link")
+	public void getPriceAndRatesVeryHeavhVehicleWeekdays()
 
 	{
 		live.getTimeAndRatesVeryHeavhVehicleWeekdays();
 	}
 
-	@Test(priority = 31, description = "Get Time and Toll Rates Very Heavh Vehicle (Saturday) of Singapore First Toll link")
-	public void GetPriceAndRatesVeryHeavhVehicleSaturday()
+	@Test(priority = 31, description = "Verify Time and Toll Rates Very Heavh Vehicle (Saturday) of Singapore First Toll link")
+	public void getPriceAndRatesVeryHeavhVehicleSaturday()
 
 	{
 		live.getTimeAndRatesVeryHeavhVehicleSaturday();
+	}
+
+	@Test(priority = 32, description = "Close Browser")
+	public void closeBrowser()
+
+	{
+		driver.quit();
 	}
 }
